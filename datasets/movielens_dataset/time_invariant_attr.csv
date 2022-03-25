@@ -1,0 +1,3200 @@
+userID gender age occupation
+2779 M 35-44 executive/managerial
+2780 M 25-34 technician/engineer
+2781 M 35-44 "college/grad student"
+2782 F 18-24 "college/grad student"
+2783 M 45-49 technician/engineer
+2784 M 50-55 writer
+2785 M 56+ retired
+2786 M 25-34 "college/grad student"
+2787 M 25-34 "college/grad student"
+2788 M 56+ academic/educator
+2789 M 18-24 "college/grad student"
+2790 M 25-34 writer
+2791 M 56+ executive/managerial
+2792 M 18-24 "college/grad student"
+2793 M 35-44 executive/managerial
+2794 M 25-34 artist
+2795 M 50-55 retired
+2796 M 25-34 sales/marketing
+2797 F 25-34 executive/managerial
+2798 M 35-44 writer
+2799 M 18-24 other
+2800 F 18-24 "college/grad student"
+2801 F 25-34 clerical/admin
+2802 M 35-44 writer
+2803 M 25-34 executive/managerial
+2804 F 35-44 other
+2805 M 56+ unemployed
+2806 M "Under 18" "K-12 student"
+2807 F 35-44 lawyer
+2808 M 56+ self-employed
+2809 M 25-34 executive/managerial
+2810 F "Under 18" "K-12 student"
+2811 M 25-34 unemployed
+2812 M 25-34 technician/engineer
+2813 M 25-34 writer
+2814 M 35-44 executive/managerial
+2815 M 35-44 technician/engineer
+2816 M 25-34 executive/managerial
+2817 M 35-44 programmer
+2818 M 25-34 programmer
+2819 M 45-49 sales/marketing
+2820 F 35-44 other
+2821 M 18-24 writer
+2822 M 50-55 executive/managerial
+2823 M 25-34 "college/grad student"
+2824 M 18-24 "college/grad student"
+2825 F 25-34 writer
+2826 M 35-44 programmer
+2827 M 25-34 technician/engineer
+2828 M 18-24 "college/grad student"
+2829 M 45-49 writer
+2830 M 35-44 executive/managerial
+2831 M 25-34 other
+2832 M 25-34 technician/engineer
+2833 M 25-34 scientist
+2834 M 35-44 academic/educator
+2835 M 35-44 writer
+2836 M 25-34 programmer
+2837 M 18-24 other
+2838 M 18-24 academic/educator
+2839 M 25-34 technician/engineer
+2840 M 25-34 other
+2841 M 50-55 programmer
+2842 M 35-44 technician/engineer
+2843 F 25-34 "college/grad student"
+2844 M 25-34 writer
+2845 M 25-34 "college/grad student"
+2846 F 18-24 "college/grad student"
+2847 M 18-24 "college/grad student"
+2848 M 25-34 other
+2849 M 45-49 lawyer
+2850 M 18-24 writer
+2851 F 25-34 executive/managerial
+2852 M 25-34 programmer
+2853 M "Under 18" academic/educator
+2854 F 18-24 "college/grad student"
+2855 M 25-34 "college/grad student"
+2856 M 35-44 lawyer
+2857 M 25-34 other
+2858 F "Under 18" "K-12 student"
+2859 M 18-24 academic/educator
+2860 M 35-44 technician/engineer
+2861 M 25-34 scientist
+2862 M 45-49 executive/managerial
+2863 F 25-34 artist
+2864 F 35-44 clerical/admin
+2865 F 25-34 "doctor/health care"
+2866 M 25-34 executive/managerial
+2867 M 45-49 technician/engineer
+2868 M 35-44 programmer
+2869 M 50-55 technician/engineer
+2870 M 50-55 tradesman/craftsman
+2871 F 25-34 sales/marketing
+2872 M 25-34 writer
+2873 F 18-24 "college/grad student"
+2874 F 35-44 writer
+2875 M 25-34 artist
+2876 M 25-34 technician/engineer
+2877 M 35-44 academic/educator
+2878 F 50-55 writer
+2879 M 18-24 "college/grad student"
+2880 M 18-24 programmer
+2881 F 25-34 programmer
+2882 M 18-24 writer
+2883 M 18-24 writer
+2884 F 50-55 clerical/admin
+2885 F 18-24 academic/educator
+2886 M 18-24 "college/grad student"
+2887 M 25-34 clerical/admin
+2888 M 25-34 sales/marketing
+2889 M 35-44 clerical/admin
+2890 M 35-44 executive/managerial
+2891 F 18-24 "college/grad student"
+2892 M 25-34 "college/grad student"
+2893 M 25-34 academic/educator
+2894 M 18-24 "college/grad student"
+2895 M 25-34 lawyer
+2896 M 18-24 sales/marketing
+2897 M 25-34 "customer service"
+2898 M 18-24 "college/grad student"
+2899 M 35-44 sales/marketing
+2900 M 18-24 programmer
+2901 M 25-34 technician/engineer
+2902 M 25-34 programmer
+2903 M 25-34 self-employed
+2904 M 25-34 "college/grad student"
+2905 M 35-44 technician/engineer
+2906 M 35-44 unemployed
+2907 F 35-44 "customer service"
+2908 M 18-24 artist
+2909 M 25-34 executive/managerial
+2911 F 25-34 "college/grad student"
+2912 F 18-24 "college/grad student"
+2913 F 35-44 writer
+2914 M 25-34 "college/grad student"
+2915 M 25-34 executive/managerial
+2916 M 45-49 artist
+2917 M 25-34 other
+2918 M 25-34 programmer
+2919 M 18-24 technician/engineer
+2920 M 25-34 artist
+2921 M 50-55 academic/educator
+2922 M 25-34 technician/engineer
+2923 M 35-44 programmer
+2924 F 18-24 "college/grad student"
+2925 F 25-34 "college/grad student"
+2926 F 18-24 artist
+2927 M 25-34 programmer
+2928 M 25-34 artist
+2929 M 18-24 artist
+2930 M 50-55 technician/engineer
+2931 M 18-24 "college/grad student"
+2932 M 25-34 programmer
+2933 M 35-44 lawyer
+2934 F 35-44 writer
+2935 M 25-34 other
+2936 F 18-24 "college/grad student"
+2937 F 18-24 "college/grad student"
+2938 F 25-34 other
+2939 F 25-34 scientist
+2940 M 25-34 other
+2941 M 35-44 programmer
+2942 F 50-55 academic/educator
+2943 M 35-44 programmer
+2944 F 18-24 "college/grad student"
+2945 F 35-44 technician/engineer
+2946 M 35-44 self-employed
+2948 M 18-24 sales/marketing
+2949 M 25-34 technician/engineer
+2950 M 18-24 other
+2951 F 35-44 sales/marketing
+2952 M 25-34 "college/grad student"
+2953 M 25-34 writer
+2954 M 18-24 artist
+2955 M 35-44 sales/marketing
+2956 M 25-34 programmer
+2957 M 18-24 "college/grad student"
+2958 M 25-34 executive/managerial
+2959 M 35-44 technician/engineer
+2960 M 18-24 "college/grad student"
+2961 M 50-55 technician/engineer
+2962 M 35-44 clerical/admin
+2963 F 18-24 "college/grad student"
+2964 M 25-34 technician/engineer
+2965 F 35-44 "college/grad student"
+2966 F 25-34 "college/grad student"
+2967 M 25-34 other
+2968 F 18-24 other
+2969 M 25-34 executive/managerial
+2970 M 18-24 "college/grad student"
+2971 M 25-34 "college/grad student"
+2972 M 25-34 "college/grad student"
+2973 F 18-24 "college/grad student"
+2974 M 18-24 "college/grad student"
+2975 M 35-44 lawyer
+2976 M 18-24 writer
+2977 F 18-24 "college/grad student"
+2978 M 35-44 writer
+2979 M 35-44 artist
+2981 M 45-49 "doctor/health care"
+2982 M 25-34 "college/grad student"
+2983 M 18-24 "college/grad student"
+2984 M 25-34 "college/grad student"
+2985 M 18-24 "college/grad student"
+2986 M 25-34 "college/grad student"
+2987 M 18-24 "college/grad student"
+2988 F 18-24 "doctor/health care"
+2989 M 35-44 programmer
+2990 M 35-44 programmer
+2991 M 50-55 academic/educator
+2992 M 18-24 "college/grad student"
+2993 M 18-24 unemployed
+2994 M 35-44 "customer service"
+2995 M 25-34 scientist
+2996 M 18-24 other
+2997 F 35-44 self-employed
+2998 F 25-34 academic/educator
+2999 M 25-34 executive/managerial
+3000 M 25-34 "college/grad student"
+3001 M 18-24 "college/grad student"
+3002 M 45-49 lawyer
+3003 M 18-24 scientist
+3004 F 18-24 "college/grad student"
+3005 M 25-34 technician/engineer
+3006 M 18-24 "college/grad student"
+3007 M 35-44 other
+3008 M 18-24 "college/grad student"
+3009 F 35-44 clerical/admin
+3010 M 25-34 programmer
+3011 M 25-34 academic/educator
+3012 M 25-34 programmer
+3013 M 45-49 technician/engineer
+3014 M 35-44 executive/managerial
+3015 M 56+ "doctor/health care"
+3016 M 18-24 programmer
+3017 F 35-44 homemaker
+3018 M 35-44 other
+3019 M 50-55 programmer
+3020 F 35-44 executive/managerial
+3021 F 45-49 scientist
+3022 M 25-34 technician/engineer
+3023 F 25-34 executive/managerial
+3024 M 35-44 technician/engineer
+3025 F 35-44 other
+3026 F 18-24 "college/grad student"
+3027 M 18-24 "college/grad student"
+3028 M "Under 18" "K-12 student"
+3029 M 18-24 "college/grad student"
+3030 M 35-44 academic/educator
+3031 M 18-24 "college/grad student"
+3032 M 25-34 other
+3033 M 18-24 "college/grad student"
+3034 F 18-24 academic/educator
+3035 F 25-34 executive/managerial
+3036 M 56+ retired
+3037 F 25-34 artist
+3038 F 35-44 artist
+3039 F 50-55 clerical/admin
+3040 M 25-34 farmer
+3041 M 25-34 "college/grad student"
+3042 M 56+ academic/educator
+3043 M 18-24 artist
+3044 M 35-44 self-employed
+3045 M 45-49 academic/educator
+3046 M "Under 18" "college/grad student"
+3047 F 25-34 "college/grad student"
+3048 M 18-24 artist
+3049 F 50-55 other
+3050 M 35-44 programmer
+3051 M 18-24 technician/engineer
+3052 M 35-44 programmer
+3053 F 25-34 clerical/admin
+3054 M 18-24 "college/grad student"
+3055 F 25-34 clerical/admin
+3056 M 25-34 tradesman/craftsman
+3057 F 25-34 programmer
+3058 M 18-24 programmer
+3059 M 35-44 other
+3060 F 35-44 academic/educator
+3061 M 45-49 artist
+3062 M 18-24 "college/grad student"
+3063 M 18-24 "college/grad student"
+3064 M 35-44 technician/engineer
+3065 F 18-24 "college/grad student"
+3066 M 18-24 "college/grad student"
+3067 F 25-34 other
+3068 F 35-44 homemaker
+3069 M 18-24 "college/grad student"
+3070 F 18-24 "college/grad student"
+3071 M 25-34 academic/educator
+3072 M 50-55 academic/educator
+3073 M 25-34 other
+3074 M 25-34 other
+3075 F 25-34 lawyer
+3076 M 35-44 technician/engineer
+3077 M 18-24 "college/grad student"
+3078 F 35-44 academic/educator
+3079 F 25-34 academic/educator
+3080 M 25-34 writer
+3081 M 25-34 executive/managerial
+3082 F 35-44 "doctor/health care"
+3083 F 50-55 other
+3084 M 25-34 self-employed
+3085 M 25-34 "college/grad student"
+3086 M 18-24 programmer
+3087 F "Under 18" academic/educator
+3088 F 25-34 "college/grad student"
+3089 M 45-49 self-employed
+3090 M 25-34 artist
+3091 F 25-34 other
+3092 M 35-44 scientist
+3093 F 45-49 writer
+3094 M 35-44 other
+3095 F 25-34 clerical/admin
+3096 F 45-49 clerical/admin
+3097 F 25-34 "customer service"
+3098 M 25-34 "college/grad student"
+3099 M 25-34 technician/engineer
+3100 F 25-34 "doctor/health care"
+3101 M 18-24 scientist
+3102 M 25-34 programmer
+3103 M 25-34 writer
+3104 M 18-24 technician/engineer
+3105 M 35-44 programmer
+3106 M 25-34 other
+3107 M 25-34 technician/engineer
+3108 M 50-55 "doctor/health care"
+3109 F 25-34 lawyer
+3110 M 25-34 other
+3111 M 18-24 "college/grad student"
+3112 M 18-24 programmer
+3113 M 25-34 "K-12 student"
+3114 M 18-24 "customer service"
+3115 M 35-44 technician/engineer
+3116 M 25-34 programmer
+3117 M 35-44 other
+3118 M 25-34 other
+3119 M 45-49 academic/educator
+3120 M 18-24 "college/grad student"
+3121 M 25-34 artist
+3122 F 25-34 executive/managerial
+3123 M 25-34 artist
+3124 M 25-34 programmer
+3125 M 25-34 executive/managerial
+3126 M 25-34 artist
+3127 F 25-34 other
+3128 M 18-24 artist
+3129 M 25-34 executive/managerial
+3130 M 25-34 executive/managerial
+3131 F 25-34 artist
+3132 M 35-44 executive/managerial
+3133 M 18-24 "college/grad student"
+3134 M 18-24 "college/grad student"
+3135 M 25-34 scientist
+3136 F 25-34 "college/grad student"
+3137 M 25-34 lawyer
+3138 M 35-44 technician/engineer
+3139 M 56+ retired
+3140 F 25-34 "college/grad student"
+3141 M 25-34 sales/marketing
+3142 M 25-34 writer
+3143 F 50-55 self-employed
+3144 F 25-34 executive/managerial
+3145 M 18-24 "college/grad student"
+3146 M 25-34 other
+3147 M 25-34 sales/marketing
+3148 M 18-24 writer
+3149 M 18-24 "college/grad student"
+3150 F 25-34 clerical/admin
+3151 F 25-34 other
+3152 M 18-24 "college/grad student"
+3153 F 25-34 "college/grad student"
+3154 F 25-34 "college/grad student"
+3155 M 25-34 executive/managerial
+3156 M 35-44 executive/managerial
+3157 M 25-34 programmer
+3158 M 25-34 scientist
+3159 F 25-34 scientist
+3160 M 25-34 technician/engineer
+3161 M 25-34 executive/managerial
+3162 M 25-34 academic/educator
+3163 M 18-24 scientist
+3164 M 18-24 programmer
+3165 M 35-44 executive/managerial
+3166 M 18-24 "college/grad student"
+3167 M 25-34 artist
+3168 F 35-44 "customer service"
+3169 M 50-55 other
+3170 M 25-34 other
+3171 F 50-55 clerical/admin
+3172 M 18-24 programmer
+3173 M 25-34 programmer
+3174 F 18-24 sales/marketing
+3175 M 35-44 self-employed
+3176 M 25-34 technician/engineer
+3177 F 25-34 "doctor/health care"
+3178 F 35-44 "customer service"
+3179 F 18-24 writer
+3180 M 25-34 sales/marketing
+3181 M 25-34 programmer
+3182 M 25-34 programmer
+3183 M 50-55 executive/managerial
+3184 F 25-34 tradesman/craftsman
+3185 M 18-24 executive/managerial
+3186 M 50-55 academic/educator
+3187 M 35-44 programmer
+3188 M 56+ retired
+3189 M 25-34 self-employed
+3190 M "Under 18" technician/engineer
+3191 M 25-34 programmer
+3192 M 18-24 "college/grad student"
+3193 M 25-34 other
+3194 M 25-34 scientist
+3195 M 18-24 "college/grad student"
+3196 F 18-24 "college/grad student"
+3197 F 18-24 sales/marketing
+3198 M 25-34 programmer
+3199 M 18-24 other
+3200 F 25-34 academic/educator
+3201 M 45-49 executive/managerial
+3202 F 18-24 "college/grad student"
+3203 M 35-44 other
+3204 M 45-49 self-employed
+3205 F 35-44 self-employed
+3206 M 18-24 writer
+3207 M 35-44 executive/managerial
+3208 M 25-34 sales/marketing
+3209 M 25-34 other
+3210 F 45-49 other
+3211 M 50-55 self-employed
+3212 F 25-34 technician/engineer
+3213 F 25-34 academic/educator
+3214 F 56+ executive/managerial
+3215 F 50-55 retired
+3216 M 35-44 academic/educator
+3217 F 35-44 other
+3218 M 56+ "doctor/health care"
+3219 F 18-24 "college/grad student"
+3220 M 35-44 executive/managerial
+3221 M 25-34 other
+3222 M 35-44 executive/managerial
+3223 M 25-34 writer
+3224 F 25-34 sales/marketing
+3225 M 18-24 other
+3226 M 35-44 "college/grad student"
+3227 F 25-34 sales/marketing
+3228 M 25-34 sales/marketing
+3229 F 56+ academic/educator
+3230 M 35-44 self-employed
+3231 M 25-34 executive/managerial
+3232 M 35-44 programmer
+3233 M 50-55 artist
+3234 F "Under 18" other
+3235 M 18-24 "college/grad student"
+3236 M 18-24 scientist
+3237 M 35-44 executive/managerial
+3238 M 35-44 executive/managerial
+3239 F 25-34 programmer
+3240 M 18-24 "college/grad student"
+3241 F 50-55 other
+3242 M 50-55 retired
+3243 M 25-34 programmer
+3244 F 18-24 "college/grad student"
+3245 M 18-24 artist
+3246 F 35-44 academic/educator
+3247 M 35-44 scientist
+3248 F 25-34 executive/managerial
+3249 F 25-34 "college/grad student"
+3250 M 25-34 "college/grad student"
+3251 M 35-44 technician/engineer
+3252 M 50-55 other
+3253 F 35-44 "college/grad student"
+3254 F 35-44 "doctor/health care"
+3255 F 25-34 scientist
+3256 M 25-34 scientist
+3257 M 25-34 sales/marketing
+3258 M 45-49 "doctor/health care"
+3259 F 18-24 "college/grad student"
+3260 M 25-34 "college/grad student"
+3261 M 45-49 writer
+3262 M 25-34 sales/marketing
+3263 M 50-55 lawyer
+3264 F 25-34 academic/educator
+3265 M 25-34 scientist
+3266 F 25-34 "college/grad student"
+3267 M 25-34 "college/grad student"
+3268 M 25-34 programmer
+3269 F 18-24 writer
+3270 M 18-24 lawyer
+3271 F 35-44 other
+3272 M 35-44 other
+3273 M 35-44 executive/managerial
+3274 M 25-34 writer
+3275 M 35-44 executive/managerial
+3276 M 25-34 writer
+3277 M 25-34 technician/engineer
+3278 M 35-44 executive/managerial
+3279 M 45-49 scientist
+3280 M 25-34 executive/managerial
+3281 M 25-34 technician/engineer
+3282 M 45-49 clerical/admin
+3283 M 35-44 self-employed
+3284 M 25-34 "doctor/health care"
+3285 M 25-34 "college/grad student"
+3286 F 35-44 executive/managerial
+3287 M 56+ retired
+3288 M 25-34 sales/marketing
+3289 M 45-49 "doctor/health care"
+3290 M 25-34 sales/marketing
+3291 F 25-34 executive/managerial
+3292 F 50-55 "doctor/health care"
+3293 M 45-49 sales/marketing
+3294 M 18-24 "college/grad student"
+3295 M 18-24 tradesman/craftsman
+3296 M 18-24 sales/marketing
+3297 M 18-24 "college/grad student"
+3298 M "Under 18" "K-12 student"
+3299 F 25-34 "college/grad student"
+3300 M 35-44 "customer service"
+3301 F 25-34 artist
+3302 M 25-34 technician/engineer
+3303 M 56+ technician/engineer
+3304 F 45-49 "customer service"
+3305 M 56+ writer
+3306 M 45-49 sales/marketing
+3307 M 50-55 "doctor/health care"
+3308 F 18-24 writer
+3309 M 25-34 technician/engineer
+3310 M 45-49 sales/marketing
+3311 M 25-34 "college/grad student"
+3312 F 18-24 "college/grad student"
+3313 M 35-44 writer
+3314 M 25-34 executive/managerial
+3315 M 25-34 programmer
+3316 M "Under 18" unemployed
+3317 M 25-34 "college/grad student"
+3318 M 56+ retired
+3319 F 56+ retired
+3320 M 25-34 academic/educator
+3321 M 35-44 academic/educator
+3322 F 18-24 "college/grad student"
+3323 M 35-44 sales/marketing
+3324 M 35-44 technician/engineer
+3325 F 35-44 sales/marketing
+3326 M 45-49 executive/managerial
+3327 M 18-24 programmer
+3328 M 56+ unemployed
+3329 M 50-55 tradesman/craftsman
+3330 F 35-44 academic/educator
+3331 F 25-34 executive/managerial
+3332 M 25-34 executive/managerial
+3333 M 18-24 self-employed
+3334 M 35-44 other
+3335 M 25-34 other
+3336 M 35-44 technician/engineer
+3337 M 25-34 "college/grad student"
+3338 M 45-49 self-employed
+3339 M 25-34 technician/engineer
+3340 M 45-49 self-employed
+3341 M 25-34 writer
+3342 F 25-34 "customer service"
+3343 F 18-24 "college/grad student"
+3344 M 35-44 other
+3345 M 25-34 executive/managerial
+3346 M 35-44 executive/managerial
+3347 F 35-44 executive/managerial
+3348 M 45-49 self-employed
+3349 F 18-24 "college/grad student"
+3350 F 18-24 other
+3351 F 18-24 "customer service"
+3352 M 35-44 other
+3353 M 35-44 technician/engineer
+3354 M 25-34 executive/managerial
+3355 M 25-34 academic/educator
+3356 M 35-44 executive/managerial
+3357 M 25-34 tradesman/craftsman
+3358 F 25-34 academic/educator
+3359 M 25-34 writer
+3360 F 25-34 other
+3361 M 25-34 "college/grad student"
+3362 F 25-34 other
+3363 F 35-44 homemaker
+3364 M 56+ retired
+3365 M 50-55 technician/engineer
+3366 M 35-44 sales/marketing
+3367 M 50-55 self-employed
+3368 M 25-34 sales/marketing
+3369 M 45-49 tradesman/craftsman
+3370 M 18-24 "college/grad student"
+3371 M 25-34 artist
+3372 M 56+ retired
+3373 M 18-24 self-employed
+3374 M 35-44 "customer service"
+3375 M 25-34 "college/grad student"
+3376 M 35-44 self-employed
+3377 M 25-34 technician/engineer
+3378 M 18-24 "college/grad student"
+3379 M 35-44 academic/educator
+3380 M 50-55 other
+3381 M 25-34 other
+3382 F "Under 18" "K-12 student"
+3383 M 56+ self-employed
+3384 M 35-44 executive/managerial
+3385 F 25-34 homemaker
+3386 M 18-24 "college/grad student"
+3387 M 18-24 academic/educator
+3388 F 25-34 academic/educator
+3389 M 18-24 other
+3390 F 45-49 writer
+3391 M 18-24 "college/grad student"
+3392 M 50-55 "doctor/health care"
+3393 M 35-44 programmer
+3394 M 35-44 executive/managerial
+3395 M 25-34 executive/managerial
+3396 M 25-34 programmer
+3397 M 25-34 "customer service"
+3398 M 18-24 writer
+3399 M 25-34 "college/grad student"
+3400 M 25-34 sales/marketing
+3401 M 35-44 executive/managerial
+3402 M 35-44 writer
+3403 M 35-44 "customer service"
+3404 M 25-34 farmer
+3405 M 35-44 sales/marketing
+3406 F 25-34 executive/managerial
+3407 F 45-49 "customer service"
+3408 M 25-34 technician/engineer
+3409 M 25-34 "college/grad student"
+3410 M 35-44 academic/educator
+3411 M 18-24 "college/grad student"
+3412 M 25-34 tradesman/craftsman
+3413 F 25-34 technician/engineer
+3414 M 25-34 technician/engineer
+3415 M 35-44 executive/managerial
+3416 M 25-34 programmer
+3417 F 18-24 artist
+3418 F 18-24 clerical/admin
+3419 M 45-49 academic/educator
+3420 F 25-34 executive/managerial
+3421 M 45-49 executive/managerial
+3422 M 25-34 "customer service"
+3423 M 25-34 executive/managerial
+3424 M 25-34 "doctor/health care"
+3425 M 18-24 writer
+3426 M 25-34 writer
+3427 M 25-34 sales/marketing
+3428 M 45-49 academic/educator
+3429 F 25-34 executive/managerial
+3430 F 45-49 academic/educator
+3431 F 45-49 "doctor/health care"
+3432 M 25-34 programmer
+3433 M 18-24 programmer
+3434 M 18-24 "college/grad student"
+3435 M 45-49 academic/educator
+3436 M 35-44 other
+3437 F 25-34 other
+3438 F 25-34 other
+3439 M 18-24 technician/engineer
+3440 M 56+ technician/engineer
+3441 F 25-34 sales/marketing
+3442 M 18-24 programmer
+3443 F 35-44 technician/engineer
+3444 M 50-55 sales/marketing
+3445 F 35-44 writer
+3446 M 25-34 executive/managerial
+3447 M 25-34 programmer
+3448 F 18-24 clerical/admin
+3449 M 25-34 sales/marketing
+3450 M 25-34 "customer service"
+3451 F 25-34 lawyer
+3452 M 25-34 sales/marketing
+3453 M 35-44 executive/managerial
+3454 M 18-24 other
+3455 F 25-34 other
+3456 M 25-34 technician/engineer
+3457 M 25-34 writer
+3458 M 45-49 other
+3459 M 18-24 "college/grad student"
+3460 M "Under 18" "college/grad student"
+3461 M 35-44 other
+3462 F 25-34 "college/grad student"
+3463 M 25-34 scientist
+3464 F 25-34 sales/marketing
+3465 M 25-34 sales/marketing
+3466 M 25-34 sales/marketing
+3467 M 25-34 sales/marketing
+3468 M 25-34 writer
+3469 M 45-49 technician/engineer
+3470 M 35-44 technician/engineer
+3471 M 18-24 "college/grad student"
+3472 M 25-34 "doctor/health care"
+3473 F 35-44 self-employed
+3474 M 35-44 lawyer
+3475 M 25-34 sales/marketing
+3476 M 50-55 other
+3477 F 50-55 academic/educator
+3478 M 25-34 executive/managerial
+3479 M 18-24 "college/grad student"
+3480 M 25-34 other
+3481 M 18-24 "college/grad student"
+3482 M 50-55 technician/engineer
+3483 F 45-49 executive/managerial
+3484 M 18-24 "college/grad student"
+3485 M 25-34 other
+3486 F 18-24 other
+3487 M 18-24 "college/grad student"
+3488 M 45-49 technician/engineer
+3489 M 18-24 "college/grad student"
+3490 M 25-34 other
+3491 M 25-34 self-employed
+3492 M 35-44 executive/managerial
+3493 M 25-34 technician/engineer
+3494 M 25-34 academic/educator
+3495 M 18-24 "college/grad student"
+3496 M 35-44 "customer service"
+3497 F 35-44 artist
+3498 M 25-34 technician/engineer
+3499 M 25-34 clerical/admin
+3500 M 35-44 executive/managerial
+3501 F 35-44 executive/managerial
+3502 F 18-24 executive/managerial
+3503 M 18-24 "college/grad student"
+3504 M 18-24 executive/managerial
+3505 F 25-34 scientist
+3506 M 18-24 programmer
+3507 M 25-34 other
+3508 M 18-24 "college/grad student"
+3509 M 18-24 "college/grad student"
+3510 F 18-24 "college/grad student"
+3511 M 50-55 other
+3512 M 18-24 technician/engineer
+3513 M 25-34 self-employed
+3514 M 18-24 programmer
+3515 M 35-44 clerical/admin
+3516 M 18-24 "college/grad student"
+3517 M 18-24 programmer
+3518 F 18-24 executive/managerial
+3519 F 25-34 sales/marketing
+3520 M 25-34 other
+3521 M 25-34 other
+3522 M 18-24 other
+3523 M 35-44 executive/managerial
+3524 F 25-34 other
+3525 F 18-24 "college/grad student"
+3526 M 35-44 artist
+3527 M 25-34 other
+3528 M 35-44 "customer service"
+3529 F 45-49 academic/educator
+3530 M 25-34 other
+3531 F 25-34 lawyer
+3532 F 35-44 sales/marketing
+3533 M 25-34 artist
+3534 M 35-44 technician/engineer
+3535 M 45-49 tradesman/craftsman
+3536 M 18-24 "college/grad student"
+3537 M "Under 18" "K-12 student"
+3538 M 35-44 other
+3539 F 25-34 "college/grad student"
+3540 M 18-24 technician/engineer
+3541 M 25-34 clerical/admin
+3542 M 25-34 scientist
+3543 M 25-34 technician/engineer
+3544 F 25-34 "college/grad student"
+3545 M 35-44 programmer
+3546 M 25-34 writer
+3547 M 35-44 self-employed
+3548 M 45-49 executive/managerial
+3549 F 35-44 executive/managerial
+3550 M 25-34 "customer service"
+3551 F 56+ other
+3552 F 35-44 artist
+3553 M 35-44 self-employed
+3554 M 25-34 scientist
+3555 M 56+ executive/managerial
+3556 M 25-34 technician/engineer
+3557 M 18-24 "customer service"
+3558 M 18-24 technician/engineer
+3559 M 18-24 "college/grad student"
+3560 F 25-34 "doctor/health care"
+3561 M 35-44 sales/marketing
+3562 F 25-34 "doctor/health care"
+3563 M 25-34 artist
+3564 M 25-34 lawyer
+3565 M 25-34 tradesman/craftsman
+3566 M 45-49 other
+3567 M 25-34 sales/marketing
+3568 M 25-34 other
+3569 F 18-24 artist
+3570 M 35-44 programmer
+3571 M 18-24 "college/grad student"
+3572 M 35-44 lawyer
+3573 M "Under 18" "K-12 student"
+3574 F 35-44 "doctor/health care"
+3575 M 25-34 tradesman/craftsman
+3576 M 50-55 executive/managerial
+3577 F 56+ other
+3578 M 50-55 clerical/admin
+3579 M 18-24 other
+3580 F 18-24 clerical/admin
+3581 M 18-24 academic/educator
+3582 F 35-44 other
+3583 F 25-34 homemaker
+3584 M 18-24 other
+3585 M 35-44 writer
+3586 M 35-44 writer
+3587 M 35-44 clerical/admin
+3588 M 25-34 artist
+3589 F 45-49 other
+3590 F 18-24 scientist
+3591 M 35-44 "doctor/health care"
+3592 F 56+ artist
+3593 F 25-34 homemaker
+3594 M "Under 18" other
+3595 M 25-34 other
+3596 F 35-44 "college/grad student"
+3597 M 25-34 technician/engineer
+3598 M 56+ academic/educator
+3599 M 25-34 self-employed
+3600 M 35-44 writer
+3601 F 35-44 clerical/admin
+3602 M 25-34 programmer
+3603 F 35-44 executive/managerial
+3604 F "Under 18" "K-12 student"
+3605 M 18-24 programmer
+3606 F 25-34 scientist
+3607 M 35-44 technician/engineer
+3608 F 35-44 homemaker
+3609 F 25-34 technician/engineer
+3610 M 18-24 "doctor/health care"
+3611 M 25-34 artist
+3612 M 25-34 sales/marketing
+3613 M 25-34 other
+3614 M 25-34 other
+3615 M 25-34 technician/engineer
+3616 M 45-49 other
+3617 M 35-44 executive/managerial
+3618 M 56+ technician/engineer
+3619 M 50-55 self-employed
+3620 M 25-34 executive/managerial
+3621 M 18-24 "college/grad student"
+3622 M 18-24 academic/educator
+3623 M 35-44 lawyer
+3624 M 25-34 programmer
+3625 M 18-24 "K-12 student"
+3626 M 25-34 technician/engineer
+3627 F 35-44 academic/educator
+3628 M 25-34 executive/managerial
+3629 F 50-55 executive/managerial
+3630 M 18-24 "college/grad student"
+3631 M 18-24 "college/grad student"
+3632 M 50-55 lawyer
+3633 M 35-44 tradesman/craftsman
+3634 M 50-55 academic/educator
+3635 M 50-55 academic/educator
+3636 M 25-34 other
+3637 M 25-34 "doctor/health care"
+3638 M 25-34 artist
+3639 M 18-24 "college/grad student"
+3640 M 35-44 executive/managerial
+3641 M 25-34 other
+3642 F 25-34 executive/managerial
+3643 M 25-34 technician/engineer
+3644 F 25-34 lawyer
+3645 M 35-44 technician/engineer
+3646 M 35-44 writer
+3647 M 25-34 executive/managerial
+3648 M 18-24 "college/grad student"
+3649 F 25-34 other
+3650 M 25-34 other
+3651 M 25-34 sales/marketing
+3652 M 25-34 programmer
+3653 M 18-24 scientist
+3654 M 25-34 technician/engineer
+3655 F 25-34 executive/managerial
+3656 F 45-49 "customer service"
+3657 M 18-24 technician/engineer
+3658 F 25-34 executive/managerial
+3659 M 18-24 "college/grad student"
+3660 M 35-44 executive/managerial
+3661 M 35-44 programmer
+3662 M 35-44 self-employed
+3663 F 35-44 homemaker
+3664 F 35-44 academic/educator
+3665 M 25-34 other
+3666 M 45-49 other
+3667 F "Under 18" "K-12 student"
+3668 F 45-49 executive/managerial
+3669 M 25-34 sales/marketing
+3670 M 45-49 sales/marketing
+3671 M 25-34 "college/grad student"
+3672 M 35-44 "customer service"
+3673 M 25-34 artist
+3674 M 25-34 writer
+3675 M 35-44 executive/managerial
+3676 F 35-44 programmer
+3677 F 25-34 programmer
+3678 M 25-34 other
+3679 M 25-34 "college/grad student"
+3680 F 25-34 academic/educator
+3681 M 25-34 executive/managerial
+3682 F 50-55 academic/educator
+3683 M 25-34 artist
+3684 M 25-34 technician/engineer
+3685 M 25-34 "customer service"
+3686 M 25-34 executive/managerial
+3687 F 50-55 academic/educator
+3688 M 18-24 "doctor/health care"
+3689 M 25-34 other
+3690 M 18-24 other
+3691 M 25-34 executive/managerial
+3692 M 35-44 technician/engineer
+3693 M 25-34 scientist
+3694 M 25-34 programmer
+3695 M 25-34 artist
+3696 M 35-44 executive/managerial
+3697 M 25-34 scientist
+3698 M 25-34 executive/managerial
+3699 F 56+ clerical/admin
+3700 M 25-34 sales/marketing
+3701 M 35-44 academic/educator
+3702 M 35-44 scientist
+3703 M 18-24 programmer
+3704 F 35-44 other
+3705 M 45-49 executive/managerial
+3706 M 25-34 programmer
+3707 F 18-24 other
+3708 M 56+ executive/managerial
+3709 M 25-34 programmer
+3710 M "Under 18" "K-12 student"
+3711 M 35-44 other
+3712 M 25-34 technician/engineer
+3713 F 25-34 executive/managerial
+3714 M 25-34 technician/engineer
+3715 M 18-24 "customer service"
+3716 M 18-24 programmer
+3717 M 35-44 technician/engineer
+3718 M 50-55 technician/engineer
+3719 M 25-34 academic/educator
+3720 M 45-49 executive/managerial
+3721 M 25-34 scientist
+3722 M 25-34 tradesman/craftsman
+3723 M 25-34 sales/marketing
+3724 M 35-44 "doctor/health care"
+3725 M 18-24 "college/grad student"
+3726 M 25-34 technician/engineer
+3727 M 35-44 executive/managerial
+3728 M 18-24 "college/grad student"
+3729 M 18-24 "college/grad student"
+3730 M 25-34 academic/educator
+3731 M 25-34 technician/engineer
+3732 M 25-34 technician/engineer
+3733 M 18-24 "college/grad student"
+3734 M 18-24 "college/grad student"
+3735 M 25-34 other
+3736 M 35-44 academic/educator
+3737 M 25-34 sales/marketing
+3738 M 45-49 executive/managerial
+3739 M 56+ lawyer
+3740 M 18-24 "customer service"
+3741 M 25-34 other
+3742 M 25-34 other
+3743 F 35-44 executive/managerial
+3744 M 25-34 other
+3745 F 25-34 homemaker
+3746 M 25-34 "customer service"
+3747 M 45-49 retired
+3748 M 18-24 "college/grad student"
+3749 F 25-34 other
+3750 F 18-24 "college/grad student"
+3751 F 35-44 programmer
+3752 F 18-24 academic/educator
+3753 M 25-34 executive/managerial
+3754 M 56+ executive/managerial
+3755 F 50-55 sales/marketing
+3756 M 18-24 programmer
+3757 M 25-34 executive/managerial
+3758 F 35-44 "customer service"
+3759 M 35-44 "doctor/health care"
+3760 M 50-55 other
+3761 M 25-34 technician/engineer
+3762 M 50-55 "doctor/health care"
+3763 M 25-34 artist
+3764 M 25-34 academic/educator
+3765 F 50-55 clerical/admin
+3766 F 18-24 academic/educator
+3767 M 25-34 other
+3768 M 25-34 "college/grad student"
+3769 M 25-34 scientist
+3770 F 35-44 clerical/admin
+3771 M 25-34 academic/educator
+3772 M 35-44 technician/engineer
+3773 M 35-44 "doctor/health care"
+3774 M 25-34 other
+3775 M 35-44 programmer
+3776 F 25-34 "college/grad student"
+3777 M 18-24 "college/grad student"
+3778 M 25-34 other
+3779 F 45-49 artist
+3780 M "Under 18" other
+3781 F 56+ lawyer
+3782 F 25-34 other
+3783 M 25-34 executive/managerial
+3784 F 25-34 academic/educator
+3785 F 25-34 writer
+3786 F 25-34 other
+3787 F 25-34 other
+3788 F 18-24 other
+3789 F 25-34 other
+3790 F 25-34 technician/engineer
+3791 M 50-55 tradesman/craftsman
+3792 M 25-34 "doctor/health care"
+3793 M 18-24 "college/grad student"
+3794 F 18-24 "college/grad student"
+3795 F 18-24 "college/grad student"
+3796 M 45-49 sales/marketing
+3797 M 25-34 executive/managerial
+3798 M 25-34 executive/managerial
+3799 M 18-24 other
+3800 M 18-24 academic/educator
+3801 M 18-24 programmer
+3802 M 18-24 other
+3803 F 35-44 homemaker
+3804 M 25-34 "doctor/health care"
+3805 F 35-44 academic/educator
+3806 M 18-24 "college/grad student"
+3807 F 35-44 unemployed
+3808 M 25-34 executive/managerial
+3809 M 35-44 "doctor/health care"
+3810 M 50-55 executive/managerial
+3811 M 25-34 scientist
+3812 M 35-44 technician/engineer
+3813 M 35-44 executive/managerial
+3814 M 25-34 scientist
+3815 M 25-34 technician/engineer
+3816 F 25-34 clerical/admin
+3817 M 35-44 clerical/admin
+3818 M 45-49 technician/engineer
+3819 M 25-34 programmer
+3820 M 25-34 technician/engineer
+3821 M 25-34 writer
+3822 M 45-49 writer
+3823 M 56+ executive/managerial
+3824 M 25-34 technician/engineer
+3825 M 18-24 academic/educator
+3826 M 25-34 academic/educator
+3827 M 50-55 artist
+3828 M 25-34 writer
+3829 F 25-34 academic/educator
+3830 M 18-24 "college/grad student"
+3831 F 18-24 "doctor/health care"
+3832 F 25-34 executive/managerial
+3833 M 25-34 academic/educator
+3834 M 18-24 artist
+3835 M 25-34 executive/managerial
+3836 F 50-55 farmer
+3837 M 25-34 technician/engineer
+3838 F 25-34 sales/marketing
+3839 M 50-55 sales/marketing
+3840 F 25-34 other
+3841 M 45-49 tradesman/craftsman
+3842 F 35-44 self-employed
+3843 F "Under 18" "K-12 student"
+3844 M 18-24 "college/grad student"
+3845 M 25-34 programmer
+3846 M 35-44 other
+3847 M 25-34 executive/managerial
+3848 M 25-34 scientist
+3849 M 35-44 other
+3850 M 18-24 clerical/admin
+3851 M 25-34 programmer
+3852 M 50-55 self-employed
+3853 M 25-34 sales/marketing
+3854 M 25-34 sales/marketing
+3855 M 25-34 technician/engineer
+3856 F 35-44 writer
+3857 M 18-24 sales/marketing
+3858 F 45-49 homemaker
+3859 M 25-34 other
+3860 M 45-49 technician/engineer
+3861 M 18-24 "college/grad student"
+3862 M 25-34 technician/engineer
+3863 M 25-34 other
+3864 M 50-55 writer
+3865 F "Under 18" "K-12 student"
+3866 M 45-49 sales/marketing
+3867 M 35-44 clerical/admin
+3868 M 18-24 programmer
+3869 M 18-24 technician/engineer
+3870 M 25-34 technician/engineer
+3871 M 18-24 "college/grad student"
+3872 M 25-34 academic/educator
+3873 F 45-49 artist
+3874 M 25-34 executive/managerial
+3875 M 25-34 other
+3876 M 25-34 other
+3877 M 45-49 academic/educator
+3878 M 35-44 self-employed
+3879 M 25-34 clerical/admin
+3880 M 25-34 executive/managerial
+3881 M 18-24 artist
+3882 M 56+ sales/marketing
+3883 M 50-55 self-employed
+3884 M 18-24 "college/grad student"
+3885 M 25-34 programmer
+3886 M 35-44 executive/managerial
+3887 M 18-24 "college/grad student"
+3888 M 45-49 technician/engineer
+3889 M 45-49 "doctor/health care"
+3890 M 18-24 "college/grad student"
+3891 F 56+ self-employed
+3892 M 25-34 writer
+3893 M 25-34 "doctor/health care"
+3894 M 35-44 self-employed
+3895 F 35-44 other
+3896 M 35-44 other
+3897 M 56+ technician/engineer
+3898 M 45-49 lawyer
+3899 M 25-34 technician/engineer
+3900 F 25-34 sales/marketing
+3901 M 18-24 sales/marketing
+3902 M 25-34 "customer service"
+3903 M 25-34 other
+3904 M "Under 18" "K-12 student"
+3905 M 25-34 technician/engineer
+3906 M 50-55 technician/engineer
+3907 F 18-24 sales/marketing
+3908 M 25-34 other
+3909 M 18-24 technician/engineer
+3910 M 25-34 writer
+3911 M 18-24 other
+3912 M 25-34 "college/grad student"
+3913 M 18-24 technician/engineer
+3914 M 35-44 "college/grad student"
+3915 F 35-44 clerical/admin
+3916 M 25-34 "college/grad student"
+3917 F 35-44 homemaker
+3918 M 25-34 tradesman/craftsman
+3919 M 45-49 other
+3920 M 35-44 technician/engineer
+3921 M 25-34 sales/marketing
+3922 M 18-24 "college/grad student"
+3923 M 35-44 artist
+3924 M 50-55 programmer
+3925 M 25-34 programmer
+3926 M 25-34 artist
+3927 F 25-34 self-employed
+3928 M 25-34 other
+3929 M 25-34 "customer service"
+3930 M 56+ clerical/admin
+3931 M 25-34 "customer service"
+3932 M 25-34 executive/managerial
+3933 F 35-44 "doctor/health care"
+3934 M 25-34 other
+3935 M 35-44 tradesman/craftsman
+3936 F 35-44 programmer
+3937 M 56+ artist
+3938 M 25-34 artist
+3939 M 45-49 executive/managerial
+3940 M 35-44 writer
+3941 M 45-49 technician/engineer
+3942 M 18-24 "college/grad student"
+3943 F 35-44 executive/managerial
+3944 F 35-44 self-employed
+3945 F 45-49 academic/educator
+3946 F 25-34 programmer
+3947 M 25-34 other
+3948 F 45-49 programmer
+3949 M 45-49 other
+3950 M 25-34 "college/grad student"
+3951 F 18-24 "college/grad student"
+3952 F 45-49 academic/educator
+3953 M 25-34 programmer
+3954 M 18-24 "college/grad student"
+3955 M 35-44 other
+3956 M 25-34 other
+3957 M 35-44 lawyer
+3958 M 45-49 executive/managerial
+3959 F 45-49 academic/educator
+3960 F 35-44 sales/marketing
+3961 M 25-34 academic/educator
+3962 F 56+ other
+3963 M 50-55 writer
+3964 M 56+ self-employed
+3965 M 18-24 lawyer
+3966 M 25-34 other
+3967 F 18-24 artist
+3968 M 25-34 artist
+3969 M 56+ executive/managerial
+3970 F 25-34 artist
+3971 F 18-24 "college/grad student"
+3972 F 25-34 "doctor/health care"
+3973 M 25-34 executive/managerial
+3974 M 35-44 other
+3975 F 25-34 "customer service"
+3976 F 25-34 other
+3977 M 35-44 sales/marketing
+3978 M 35-44 retired
+3979 F 50-55 homemaker
+3980 M 25-34 "college/grad student"
+3981 F 45-49 other
+3982 M 56+ retired
+3983 M 25-34 other
+3984 M 25-34 executive/managerial
+3985 M 45-49 self-employed
+3986 M 25-34 executive/managerial
+3987 F 18-24 "college/grad student"
+3988 F 25-34 sales/marketing
+3989 M 50-55 programmer
+3990 M 25-34 self-employed
+3991 M 25-34 executive/managerial
+3992 M 25-34 "college/grad student"
+3993 M 25-34 other
+3994 M 50-55 executive/managerial
+3995 M 35-44 technician/engineer
+3996 M 18-24 sales/marketing
+3997 M 35-44 technician/engineer
+3998 M 45-49 other
+3999 M 35-44 technician/engineer
+4000 M 35-44 executive/managerial
+4001 F 25-34 academic/educator
+4002 M 45-49 self-employed
+4003 M 56+ retired
+4004 M 50-55 other
+4005 M 35-44 executive/managerial
+4006 M "Under 18" executive/managerial
+4007 M 35-44 programmer
+4008 M 18-24 academic/educator
+4009 M 18-24 executive/managerial
+4010 M 25-34 sales/marketing
+4011 M 25-34 technician/engineer
+4012 M 18-24 "college/grad student"
+4013 M 25-34 academic/educator
+4014 M 25-34 other
+4015 F 45-49 clerical/admin
+4016 M 50-55 other
+4017 M 25-34 sales/marketing
+4018 F 45-49 writer
+4019 M 35-44 technician/engineer
+4020 M 25-34 "doctor/health care"
+4021 M 50-55 writer
+4022 M 35-44 sales/marketing
+4023 F 35-44 homemaker
+4024 M 25-34 "customer service"
+4025 F 56+ "doctor/health care"
+4026 M 25-34 executive/managerial
+4027 F 25-34 executive/managerial
+4028 M 25-34 "college/grad student"
+4029 F 56+ clerical/admin
+4030 M 35-44 executive/managerial
+4031 M 25-34 other
+4032 M 25-34 programmer
+4033 M 25-34 "doctor/health care"
+4034 M 25-34 other
+4035 M 18-24 "college/grad student"
+4036 M 25-34 academic/educator
+4037 M 50-55 self-employed
+4038 M 50-55 "doctor/health care"
+4039 M 25-34 self-employed
+4040 M 25-34 writer
+4041 M 18-24 clerical/admin
+4042 M 35-44 scientist
+4043 F 25-34 scientist
+4044 F 35-44 clerical/admin
+4045 M 56+ retired
+4046 M 45-49 technician/engineer
+4047 M 18-24 "college/grad student"
+4048 F 35-44 academic/educator
+4049 M 45-49 lawyer
+4050 M 35-44 "doctor/health care"
+4051 M 18-24 sales/marketing
+4052 M 25-34 artist
+4053 M 25-34 tradesman/craftsman
+4054 M 35-44 clerical/admin
+4055 M 50-55 other
+4056 M "Under 18" "K-12 student"
+4057 M 35-44 "doctor/health care"
+4058 M 25-34 "doctor/health care"
+4059 M 25-34 sales/marketing
+4060 M 25-34 tradesman/craftsman
+4061 M 50-55 "doctor/health care"
+4062 M 25-34 executive/managerial
+4063 F 35-44 academic/educator
+4064 M 45-49 other
+4065 F 45-49 "customer service"
+4066 M 25-34 other
+4067 M 45-49 writer
+4068 M 56+ clerical/admin
+4069 M 35-44 scientist
+4070 M 25-34 scientist
+4071 M 25-34 technician/engineer
+4072 M 50-55 "doctor/health care"
+4073 M 25-34 "doctor/health care"
+4074 M 35-44 "doctor/health care"
+4075 M 25-34 self-employed
+4076 M 25-34 technician/engineer
+4077 F 35-44 artist
+4078 M 25-34 scientist
+4079 M 35-44 technician/engineer
+4080 M 35-44 academic/educator
+4081 M 18-24 programmer
+4082 M 25-34 writer
+4083 M 56+ sales/marketing
+4084 M 56+ retired
+4085 F 25-34 "doctor/health care"
+4086 F "Under 18" "K-12 student"
+4087 M "Under 18" "college/grad student"
+4088 M 25-34 clerical/admin
+4089 M 25-34 executive/managerial
+4090 M 56+ "doctor/health care"
+4091 M 25-34 technician/engineer
+4092 F 25-34 other
+4093 M 25-34 "college/grad student"
+4094 M 25-34 technician/engineer
+4095 M 25-34 other
+4096 M 25-34 scientist
+4097 M 25-34 executive/managerial
+4098 M 35-44 executive/managerial
+4099 M 35-44 technician/engineer
+4100 M 56+ "doctor/health care"
+4101 M 18-24 "college/grad student"
+4102 M "Under 18" "K-12 student"
+4103 M 18-24 self-employed
+4104 M 18-24 self-employed
+4105 M 50-55 executive/managerial
+4106 M 25-34 self-employed
+4107 F 25-34 other
+4108 M 35-44 technician/engineer
+4109 M 35-44 clerical/admin
+4110 F 45-49 executive/managerial
+4111 M 25-34 scientist
+4112 M 45-49 tradesman/craftsman
+4113 M 35-44 technician/engineer
+4114 M 35-44 sales/marketing
+4115 M 25-34 scientist
+4116 M 35-44 executive/managerial
+4117 M 18-24 "college/grad student"
+4118 M 25-34 clerical/admin
+4119 M 50-55 academic/educator
+4120 M 25-34 self-employed
+4121 M 45-49 executive/managerial
+4122 M 18-24 unemployed
+4123 F 25-34 "college/grad student"
+4124 M 25-34 tradesman/craftsman
+4125 M 35-44 artist
+4126 M 25-34 technician/engineer
+4127 M 50-55 technician/engineer
+4128 M 35-44 "doctor/health care"
+4129 M 56+ lawyer
+4130 M 35-44 "doctor/health care"
+4131 M 45-49 executive/managerial
+4132 M 25-34 technician/engineer
+4133 M 45-49 "college/grad student"
+4134 F 45-49 programmer
+4135 M "Under 18" "K-12 student"
+4136 M 50-55 self-employed
+4137 M 25-34 executive/managerial
+4138 M 25-34 executive/managerial
+4139 M 56+ sales/marketing
+4140 M 25-34 other
+4141 M 35-44 technician/engineer
+4142 M 56+ executive/managerial
+4143 F 25-34 "customer service"
+4144 M 18-24 "college/grad student"
+4145 F 50-55 academic/educator
+4146 M 35-44 technician/engineer
+4147 F 50-55 executive/managerial
+4148 F 35-44 executive/managerial
+4149 M 35-44 academic/educator
+4150 M 25-34 other
+4151 M 45-49 writer
+4152 M 25-34 sales/marketing
+4153 M 50-55 technician/engineer
+4154 M 25-34 academic/educator
+4155 M 50-55 technician/engineer
+4156 M 56+ writer
+4157 M 50-55 tradesman/craftsman
+4158 F "Under 18" "K-12 student"
+4159 F 50-55 homemaker
+4160 M 35-44 writer
+4161 M 45-49 other
+4162 F 25-34 sales/marketing
+4163 M 56+ executive/managerial
+4164 M 35-44 academic/educator
+4165 F 25-34 sales/marketing
+4166 F 25-34 executive/managerial
+4167 M 25-34 writer
+4168 F 45-49 "doctor/health care"
+4169 M 50-55 other
+4170 M 45-49 executive/managerial
+4171 M 56+ self-employed
+4172 M 35-44 executive/managerial
+4173 F 18-24 lawyer
+4174 F 35-44 clerical/admin
+4175 M 35-44 other
+4176 M 45-49 executive/managerial
+4177 M 35-44 technician/engineer
+4178 F 50-55 self-employed
+4179 F 35-44 writer
+4180 M 56+ retired
+4181 F 25-34 executive/managerial
+4182 M 25-34 tradesman/craftsman
+4183 M 25-34 academic/educator
+4184 M 50-55 executive/managerial
+4185 M 25-34 sales/marketing
+4186 M 25-34 executive/managerial
+4187 F 56+ writer
+4188 M 50-55 executive/managerial
+4189 M 35-44 sales/marketing
+4190 M 45-49 technician/engineer
+4191 F 45-49 scientist
+4192 M 35-44 technician/engineer
+4193 M 56+ retired
+4194 M 18-24 "college/grad student"
+4195 F 56+ retired
+4196 M 35-44 sales/marketing
+4197 F 45-49 academic/educator
+4198 M 18-24 "college/grad student"
+4199 F 25-34 homemaker
+4200 M 45-49 executive/managerial
+4201 F 25-34 other
+4202 M 25-34 executive/managerial
+4203 M 25-34 tradesman/craftsman
+4204 M 35-44 executive/managerial
+4205 F 25-34 scientist
+4206 F 35-44 academic/educator
+4207 M 35-44 academic/educator
+4208 F 35-44 other
+4209 M 56+ other
+4210 M 25-34 technician/engineer
+4211 M 45-49 "customer service"
+4212 M 56+ tradesman/craftsman
+4213 M 35-44 executive/managerial
+4214 F 25-34 other
+4215 M 25-34 executive/managerial
+4216 M 25-34 technician/engineer
+4217 M 18-24 "college/grad student"
+4218 M 50-55 technician/engineer
+4219 M 35-44 technician/engineer
+4220 M 35-44 other
+4221 M 35-44 "college/grad student"
+4222 F 45-49 technician/engineer
+4223 F 35-44 technician/engineer
+4224 F 45-49 academic/educator
+4225 F 25-34 clerical/admin
+4226 F 35-44 "doctor/health care"
+4227 M 25-34 unemployed
+4228 M 50-55 tradesman/craftsman
+4229 M 35-44 technician/engineer
+4230 M 56+ retired
+4231 F 50-55 tradesman/craftsman
+4232 F 35-44 writer
+4233 M 35-44 "college/grad student"
+4234 F 45-49 clerical/admin
+4235 M 50-55 artist
+4236 F 25-34 clerical/admin
+4237 M 25-34 sales/marketing
+4238 M 35-44 self-employed
+4239 M 50-55 executive/managerial
+4240 M 35-44 technician/engineer
+4241 M 35-44 executive/managerial
+4242 M 50-55 executive/managerial
+4243 M 56+ executive/managerial
+4244 M 35-44 technician/engineer
+4245 M 50-55 programmer
+4246 F 35-44 executive/managerial
+4247 M 25-34 "college/grad student"
+4248 M 25-34 "college/grad student"
+4249 F 18-24 technician/engineer
+4250 F 50-55 other
+4251 M 45-49 executive/managerial
+4252 F 35-44 clerical/admin
+4253 M 45-49 lawyer
+4254 M 25-34 technician/engineer
+4255 M 50-55 programmer
+4256 F "Under 18" artist
+4257 M 50-55 self-employed
+4258 M 25-34 technician/engineer
+4259 M 35-44 technician/engineer
+4260 M 25-34 self-employed
+4261 F 35-44 "doctor/health care"
+4262 F 35-44 "doctor/health care"
+4263 M 25-34 executive/managerial
+4264 M 45-49 academic/educator
+4265 M 25-34 programmer
+4266 M 56+ retired
+4267 M 35-44 executive/managerial
+4268 F 45-49 writer
+4269 M 35-44 tradesman/craftsman
+4270 M 45-49 executive/managerial
+4271 M 35-44 executive/managerial
+4272 M 45-49 technician/engineer
+4273 M 45-49 retired
+4274 F 45-49 academic/educator
+4275 F 45-49 self-employed
+4276 F 45-49 other
+4277 M 35-44 self-employed
+4278 F 45-49 executive/managerial
+4279 M 25-34 self-employed
+4280 M 35-44 technician/engineer
+4281 M 56+ retired
+4282 M 35-44 other
+4283 F 25-34 homemaker
+4284 M 50-55 executive/managerial
+4285 M 35-44 other
+4286 M 35-44 technician/engineer
+4287 M 25-34 executive/managerial
+4288 F 25-34 homemaker
+4289 M 35-44 sales/marketing
+4290 M 25-34 technician/engineer
+4291 M 35-44 sales/marketing
+4292 M 25-34 other
+4293 F 45-49 homemaker
+4294 M "Under 18" "K-12 student"
+4295 M 18-24 tradesman/craftsman
+4296 M 56+ "doctor/health care"
+4297 M 45-49 scientist
+4298 F 18-24 sales/marketing
+4299 F 25-34 artist
+4300 F 18-24 "college/grad student"
+4301 M 35-44 lawyer
+4302 M 50-55 academic/educator
+4303 M 25-34 artist
+4304 M 18-24 other
+4305 F 45-49 technician/engineer
+4306 M 45-49 executive/managerial
+4307 M 25-34 other
+4308 M 25-34 other
+4309 M 25-34 other
+4310 M 25-34 "college/grad student"
+4311 M 50-55 retired
+4312 M 25-34 tradesman/craftsman
+4313 F 25-34 executive/managerial
+4314 M 25-34 technician/engineer
+4315 M 18-24 "college/grad student"
+4316 M 25-34 "doctor/health care"
+4317 F 35-44 sales/marketing
+4318 M 25-34 "customer service"
+4319 M 35-44 executive/managerial
+4320 M 25-34 "customer service"
+4321 M 45-49 executive/managerial
+4322 F 50-55 "doctor/health care"
+4323 M 18-24 "college/grad student"
+4324 M 25-34 "customer service"
+4325 M 25-34 other
+4326 F 45-49 retired
+4327 M 35-44 technician/engineer
+4328 M 50-55 clerical/admin
+4329 F 25-34 sales/marketing
+4330 F 45-49 "doctor/health care"
+4331 M 35-44 "doctor/health care"
+4332 F 25-34 clerical/admin
+4333 M 50-55 artist
+4334 M 25-34 academic/educator
+4335 M 35-44 other
+4336 F 25-34 other
+4337 M 18-24 writer
+4338 F 18-24 "customer service"
+4339 M 25-34 artist
+4340 F 25-34 technician/engineer
+4341 M 35-44 technician/engineer
+4342 M 25-34 other
+4343 M 25-34 programmer
+4344 M 25-34 academic/educator
+4345 F 25-34 sales/marketing
+4346 M 18-24 technician/engineer
+4347 F 18-24 writer
+4348 M 45-49 other
+4349 M 18-24 artist
+4350 M 18-24 artist
+4351 M 25-34 programmer
+4352 M 18-24 "college/grad student"
+4353 M 25-34 executive/managerial
+4354 M 35-44 sales/marketing
+4355 M 50-55 sales/marketing
+4356 M 35-44 self-employed
+4357 F 35-44 homemaker
+4358 M 35-44 technician/engineer
+4359 M 18-24 "college/grad student"
+4360 F 25-34 homemaker
+4361 M 35-44 scientist
+4362 M 25-34 technician/engineer
+4363 M 35-44 sales/marketing
+4364 M 25-34 tradesman/craftsman
+4365 F 50-55 self-employed
+4366 M 18-24 scientist
+4367 M 35-44 other
+4368 M 18-24 technician/engineer
+4369 M 50-55 executive/managerial
+4370 M 25-34 self-employed
+4371 F 18-24 "college/grad student"
+4372 M 35-44 technician/engineer
+4373 M 50-55 programmer
+4374 M 18-24 "college/grad student"
+4375 F 25-34 "customer service"
+4376 F 25-34 "customer service"
+4377 M 25-34 other
+4378 M 18-24 technician/engineer
+4379 M 25-34 "college/grad student"
+4380 F 25-34 academic/educator
+4381 M 25-34 "college/grad student"
+4382 M 25-34 tradesman/craftsman
+4383 F 18-24 "college/grad student"
+4384 M 25-34 other
+4385 M 25-34 "college/grad student"
+4386 M 25-34 "customer service"
+4387 F 18-24 "college/grad student"
+4388 M 45-49 clerical/admin
+4389 M 25-34 "college/grad student"
+4390 M 25-34 other
+4391 F 18-24 "college/grad student"
+4392 M 18-24 "college/grad student"
+4393 M 18-24 "college/grad student"
+4394 M 25-34 "college/grad student"
+4395 M 50-55 "doctor/health care"
+4396 M 18-24 academic/educator
+4397 M 18-24 "college/grad student"
+4398 F 18-24 "college/grad student"
+4399 F 18-24 "college/grad student"
+4400 F 18-24 "college/grad student"
+4401 M 18-24 "college/grad student"
+4402 F 18-24 sales/marketing
+4403 M 25-34 scientist
+4404 M 25-34 academic/educator
+4405 M 25-34 sales/marketing
+4406 M 25-34 self-employed
+4407 M 18-24 "college/grad student"
+4408 F 45-49 artist
+4409 M 25-34 sales/marketing
+4410 M 18-24 unemployed
+4411 M 18-24 "college/grad student"
+4412 M 18-24 "college/grad student"
+4413 M "Under 18" retired
+4414 M 25-34 "college/grad student"
+4415 M 18-24 other
+4416 M 18-24 "college/grad student"
+4417 M 25-34 scientist
+4418 F 50-55 other
+4419 F 45-49 programmer
+4420 M 25-34 scientist
+4421 M 45-49 other
+4422 M 25-34 "customer service"
+4423 M 18-24 "college/grad student"
+4424 M 25-34 executive/managerial
+4425 M 35-44 executive/managerial
+4426 M 45-49 technician/engineer
+4427 M 18-24 other
+4428 M 25-34 sales/marketing
+4429 M 25-34 "customer service"
+4430 F 25-34 other
+4431 M "Under 18" sales/marketing
+4432 M 25-34 programmer
+4433 M 25-34 other
+4434 F 35-44 executive/managerial
+4435 M 25-34 executive/managerial
+4436 M 25-34 programmer
+4437 F 35-44 "customer service"
+4438 M 50-55 other
+4439 M 35-44 "doctor/health care"
+4440 M 35-44 academic/educator
+4441 M 18-24 "college/grad student"
+4442 M 50-55 scientist
+4443 M 56+ artist
+4444 F 25-34 programmer
+4445 M 25-34 clerical/admin
+4446 M 18-24 tradesman/craftsman
+4447 M 45-49 "customer service"
+4448 M 25-34 sales/marketing
+4449 M 25-34 programmer
+4450 M 25-34 scientist
+4451 M 25-34 sales/marketing
+4452 F 25-34 executive/managerial
+4453 M 35-44 other
+4454 M 25-34 writer
+4455 M 35-44 executive/managerial
+4456 F 35-44 artist
+4457 M 35-44 sales/marketing
+4458 F 25-34 "college/grad student"
+4459 M 25-34 academic/educator
+4460 M 25-34 sales/marketing
+4461 M 25-34 writer
+4462 F 25-34 other
+4463 M 50-55 executive/managerial
+4464 F 50-55 academic/educator
+4465 M 18-24 "college/grad student"
+4466 M 35-44 lawyer
+4467 F 50-55 "doctor/health care"
+4468 F 35-44 executive/managerial
+4469 F 45-49 programmer
+4470 M 35-44 programmer
+4471 M 25-34 "doctor/health care"
+4472 F 45-49 self-employed
+4473 M 35-44 academic/educator
+4474 M 35-44 executive/managerial
+4475 M 18-24 "college/grad student"
+4476 M 45-49 academic/educator
+4477 M 25-34 executive/managerial
+4478 M "Under 18" programmer
+4479 M 50-55 retired
+4480 M 25-34 other
+4481 M 25-34 tradesman/craftsman
+4482 F 35-44 academic/educator
+4483 F 25-34 "doctor/health care"
+4484 F 25-34 technician/engineer
+4485 M 25-34 "college/grad student"
+4486 M 35-44 farmer
+4487 M 25-34 executive/managerial
+4488 M 35-44 executive/managerial
+4489 M 18-24 "college/grad student"
+4490 M 35-44 "customer service"
+4491 M 18-24 "college/grad student"
+4492 M 56+ retired
+4493 F "Under 18" "K-12 student"
+4494 M 45-49 other
+4495 M 18-24 "college/grad student"
+4496 M 45-49 artist
+4497 M 50-55 other
+4498 M 50-55 executive/managerial
+4499 M 25-34 "doctor/health care"
+4500 M 50-55 executive/managerial
+4501 M 25-34 technician/engineer
+4502 M 50-55 other
+4503 M 56+ academic/educator
+4504 F 25-34 other
+4505 M 50-55 executive/managerial
+4506 M 50-55 self-employed
+4507 M 18-24 "college/grad student"
+4508 M 25-34 writer
+4509 M 25-34 executive/managerial
+4510 M 45-49 executive/managerial
+4511 M 35-44 executive/managerial
+4512 M 25-34 academic/educator
+4513 M 56+ other
+4514 M 18-24 clerical/admin
+4515 M 56+ retired
+4516 M 18-24 "college/grad student"
+4517 F 18-24 academic/educator
+4518 M 25-34 other
+4519 M 50-55 executive/managerial
+4520 M 25-34 "college/grad student"
+4521 M 35-44 programmer
+4522 M 45-49 academic/educator
+4523 M 18-24 artist
+4524 M 25-34 artist
+4525 M 25-34 sales/marketing
+4526 M 25-34 writer
+4527 M 18-24 other
+4528 M 25-34 sales/marketing
+4529 M 35-44 "doctor/health care"
+4530 F 35-44 academic/educator
+4531 M 18-24 "college/grad student"
+4532 M 25-34 executive/managerial
+4533 M 25-34 programmer
+4534 M 18-24 "college/grad student"
+4535 M 18-24 unemployed
+4536 M 18-24 programmer
+4537 F 45-49 academic/educator
+4538 M 25-34 programmer
+4539 M 35-44 unemployed
+4540 F 25-34 sales/marketing
+4541 M "Under 18" "K-12 student"
+4542 M 35-44 other
+4543 M 25-34 artist
+4544 M 56+ academic/educator
+4545 M 25-34 self-employed
+4546 M 25-34 executive/managerial
+4547 M 18-24 programmer
+4548 M 18-24 artist
+4549 F "Under 18" "K-12 student"
+4550 M 18-24 self-employed
+4551 M 18-24 programmer
+4552 M 25-34 other
+4553 F 35-44 self-employed
+4554 F 25-34 homemaker
+4555 F 18-24 homemaker
+4556 M 45-49 self-employed
+4557 M 25-34 sales/marketing
+4558 M 35-44 sales/marketing
+4559 M 25-34 executive/managerial
+4560 M 25-34 other
+4561 F 25-34 homemaker
+4562 M 35-44 "K-12 student"
+4563 F 25-34 "doctor/health care"
+4564 M 35-44 programmer
+4565 M 35-44 sales/marketing
+4566 M 35-44 technician/engineer
+4567 M 18-24 "college/grad student"
+4568 F 25-34 "college/grad student"
+4569 M 25-34 other
+4570 M 45-49 technician/engineer
+4571 M 35-44 executive/managerial
+4572 F "Under 18" "K-12 student"
+4573 M 50-55 self-employed
+4574 M 25-34 "college/grad student"
+4575 F "Under 18" "K-12 student"
+4576 F 25-34 executive/managerial
+4577 M 35-44 executive/managerial
+4578 M 25-34 other
+4579 F 18-24 "college/grad student"
+4580 F 56+ retired
+4581 M 25-34 academic/educator
+4582 F 25-34 other
+4583 M 50-55 academic/educator
+4584 F 45-49 other
+4585 M 35-44 executive/managerial
+4586 M 25-34 "college/grad student"
+4587 M 35-44 sales/marketing
+4588 F 25-34 "college/grad student"
+4589 M 25-34 technician/engineer
+4590 F 18-24 writer
+4591 M 25-34 scientist
+4592 M 18-24 "college/grad student"
+4593 F 45-49 academic/educator
+4594 M 35-44 self-employed
+4595 M 25-34 tradesman/craftsman
+4596 F 18-24 "college/grad student"
+4597 F 25-34 "college/grad student"
+4598 F 35-44 clerical/admin
+4599 F 35-44 other
+4600 M 25-34 other
+4601 M 35-44 sales/marketing
+4602 M 35-44 executive/managerial
+4603 F 35-44 artist
+4604 M 25-34 scientist
+4605 M 25-34 scientist
+4606 F "Under 18" "K-12 student"
+4607 M 25-34 other
+4608 F 25-34 other
+4609 F 25-34 "college/grad student"
+4610 F 25-34 "college/grad student"
+4611 F 18-24 "college/grad student"
+4612 F 18-24 "college/grad student"
+4613 M 25-34 programmer
+4614 F 45-49 academic/educator
+4615 M 25-34 technician/engineer
+4616 M 25-34 writer
+4617 F 25-34 "doctor/health care"
+4618 M 25-34 sales/marketing
+4619 F 25-34 academic/educator
+4620 F 18-24 technician/engineer
+4621 M 25-34 "college/grad student"
+4622 M 25-34 programmer
+4623 M 25-34 self-employed
+4624 M 25-34 programmer
+4625 M 25-34 executive/managerial
+4626 M 25-34 sales/marketing
+4627 M 56+ academic/educator
+4628 F 56+ "doctor/health care"
+4629 F 18-24 "college/grad student"
+4630 F 25-34 "college/grad student"
+4631 M 18-24 "college/grad student"
+4632 M 25-34 other
+4633 M "Under 18" other
+4634 M 50-55 writer
+4635 M 18-24 "college/grad student"
+4636 M 18-24 artist
+4637 F 35-44 homemaker
+4638 M 25-34 "college/grad student"
+4639 M 35-44 lawyer
+4640 M 25-34 "college/grad student"
+4641 M 25-34 executive/managerial
+4642 M 25-34 other
+4643 M 25-34 other
+4644 M 50-55 academic/educator
+4645 F 50-55 "doctor/health care"
+4646 F 25-34 "doctor/health care"
+4647 M 35-44 writer
+4648 M 18-24 "college/grad student"
+4649 M 56+ retired
+4650 M 25-34 executive/managerial
+4651 F 45-49 other
+4652 F 25-34 executive/managerial
+4653 M 35-44 programmer
+4654 M 35-44 writer
+4655 F 25-34 academic/educator
+4656 M 25-34 technician/engineer
+4657 M 45-49 sales/marketing
+4658 M 25-34 "college/grad student"
+4659 F 25-34 sales/marketing
+4660 F 18-24 "college/grad student"
+4661 M 45-49 scientist
+4662 F 18-24 "college/grad student"
+4663 M 25-34 "college/grad student"
+4664 F 45-49 executive/managerial
+4665 M 35-44 artist
+4666 M 35-44 academic/educator
+4667 M 25-34 sales/marketing
+4668 M 35-44 sales/marketing
+4669 M 35-44 executive/managerial
+4670 M 35-44 "customer service"
+4671 M 25-34 programmer
+4672 M 56+ retired
+4673 M 35-44 self-employed
+4674 F 35-44 executive/managerial
+4675 F 18-24 "college/grad student"
+4676 M 45-49 sales/marketing
+4677 M 50-55 "doctor/health care"
+4678 M 35-44 artist
+4679 M 56+ retired
+4680 M 35-44 other
+4681 F 35-44 scientist
+4682 M 25-34 executive/managerial
+4683 M 25-34 other
+4684 F 25-34 other
+4685 M 35-44 academic/educator
+4686 M 18-24 academic/educator
+4687 M 35-44 sales/marketing
+4688 M 25-34 homemaker
+4689 M 18-24 programmer
+4690 F "Under 18" "K-12 student"
+4691 F 45-49 technician/engineer
+4692 F 25-34 executive/managerial
+4693 M 18-24 academic/educator
+4694 M 56+ executive/managerial
+4695 M 18-24 tradesman/craftsman
+4696 M 18-24 programmer
+4697 M 18-24 "K-12 student"
+4698 F 25-34 "doctor/health care"
+4699 F 18-24 other
+4700 F 18-24 "college/grad student"
+4701 M 45-49 technician/engineer
+4702 M 25-34 lawyer
+4703 M 25-34 executive/managerial
+4704 M 18-24 writer
+4705 F 18-24 other
+4706 M 25-34 sales/marketing
+4707 M "Under 18" other
+4708 M 25-34 other
+4709 M 45-49 other
+4710 F 35-44 self-employed
+4711 M 25-34 technician/engineer
+4712 M 35-44 technician/engineer
+4713 M 25-34 technician/engineer
+4714 M 50-55 academic/educator
+4715 M 25-34 artist
+4716 F 25-34 self-employed
+4717 M 45-49 technician/engineer
+4718 M 35-44 executive/managerial
+4719 F 35-44 homemaker
+4720 M 25-34 artist
+4721 M 35-44 lawyer
+4722 M 35-44 programmer
+4723 M 35-44 executive/managerial
+4724 F 56+ "doctor/health care"
+4725 M 35-44 "customer service"
+4726 F 35-44 self-employed
+4727 F 56+ other
+4728 M 25-34 unemployed
+4729 M 50-55 self-employed
+4730 M 50-55 lawyer
+4731 M 25-34 technician/engineer
+4732 M 25-34 sales/marketing
+4733 M 18-24 tradesman/craftsman
+4734 M 50-55 academic/educator
+4735 M 45-49 clerical/admin
+4736 M 18-24 writer
+4737 M 35-44 self-employed
+4738 M 56+ academic/educator
+4739 M 25-34 clerical/admin
+4740 F 25-34 clerical/admin
+4741 M 35-44 executive/managerial
+4742 M 25-34 clerical/admin
+4743 M 56+ retired
+4744 M 50-55 scientist
+4745 F 18-24 "college/grad student"
+4746 M 50-55 academic/educator
+4747 M 18-24 "college/grad student"
+4748 M 45-49 self-employed
+4749 M 45-49 other
+4750 F 25-34 other
+4751 M 50-55 scientist
+4752 F 18-24 "college/grad student"
+4753 M 56+ academic/educator
+4754 F 18-24 other
+4755 F 56+ executive/managerial
+4756 M 56+ self-employed
+4757 M 35-44 technician/engineer
+4758 F 56+ retired
+4759 F 50-55 other
+4760 M 35-44 technician/engineer
+4761 M 18-24 scientist
+4762 F 25-34 sales/marketing
+4763 M 56+ lawyer
+4764 M "Under 18" "K-12 student"
+4765 F 35-44 self-employed
+4766 M 35-44 self-employed
+4767 F 35-44 homemaker
+4768 M 25-34 "college/grad student"
+4769 M 25-34 academic/educator
+4770 F 35-44 executive/managerial
+4771 F 25-34 "college/grad student"
+4772 M 56+ technician/engineer
+4773 M 45-49 academic/educator
+4774 M 45-49 sales/marketing
+4775 M 25-34 technician/engineer
+4776 F 25-34 clerical/admin
+4777 M 25-34 artist
+4778 M 25-34 other
+4779 M 45-49 clerical/admin
+4780 M 25-34 programmer
+4781 F 50-55 "doctor/health care"
+4782 M 45-49 academic/educator
+4783 M 25-34 other
+4784 F 35-44 "doctor/health care"
+4785 F 25-34 sales/marketing
+4786 M 45-49 "doctor/health care"
+4787 M "Under 18" lawyer
+4788 M 35-44 executive/managerial
+4789 M 35-44 artist
+4790 F 25-34 artist
+4791 M 18-24 "college/grad student"
+4792 F 50-55 executive/managerial
+4793 F 25-34 "doctor/health care"
+4794 F 35-44 other
+4795 M 45-49 self-employed
+4796 M 35-44 executive/managerial
+4797 F 35-44 technician/engineer
+4798 M 25-34 academic/educator
+4799 F 18-24 "college/grad student"
+4800 M 18-24 "college/grad student"
+4801 M 25-34 "college/grad student"
+4802 M 56+ academic/educator
+4803 F 25-34 self-employed
+4804 F 35-44 academic/educator
+4805 M 35-44 academic/educator
+4806 M 25-34 technician/engineer
+4807 M "Under 18" artist
+4808 M 35-44 other
+4809 F 50-55 "college/grad student"
+4810 M 18-24 programmer
+4811 M 35-44 academic/educator
+4812 M 18-24 sales/marketing
+4813 F 35-44 homemaker
+4814 M 18-24 sales/marketing
+4815 F 50-55 tradesman/craftsman
+4816 F 45-49 "doctor/health care"
+4817 M 25-34 academic/educator
+4818 F 25-34 technician/engineer
+4819 M 35-44 tradesman/craftsman
+4820 M 50-55 lawyer
+4821 M 18-24 unemployed
+4822 F 35-44 other
+4823 M 18-24 "college/grad student"
+4824 M 25-34 executive/managerial
+4825 M 25-34 technician/engineer
+4826 M 45-49 programmer
+4827 M 35-44 other
+4828 F 18-24 writer
+4829 M 25-34 other
+4830 M "Under 18" "K-12 student"
+4831 F 25-34 academic/educator
+4832 M 25-34 sales/marketing
+4833 M 35-44 self-employed
+4834 F 45-49 homemaker
+4835 M 25-34 writer
+4836 F 45-49 self-employed
+4837 M 25-34 "customer service"
+4838 M 45-49 academic/educator
+4839 F 50-55 "doctor/health care"
+4840 F 45-49 "doctor/health care"
+4841 M 25-34 programmer
+4842 F 35-44 academic/educator
+4843 M 56+ academic/educator
+4844 M 45-49 executive/managerial
+4845 F 25-34 academic/educator
+4846 F 25-34 artist
+4847 M 25-34 programmer
+4848 F 35-44 "doctor/health care"
+4849 F 18-24 "college/grad student"
+4850 F 45-49 clerical/admin
+4851 M 18-24 technician/engineer
+4852 M 35-44 other
+4853 M 25-34 executive/managerial
+4854 F 50-55 retired
+4855 M 25-34 programmer
+4856 M 25-34 executive/managerial
+4857 M 25-34 sales/marketing
+4858 M 25-34 academic/educator
+4859 F 18-24 sales/marketing
+4860 M 25-34 artist
+4861 M 25-34 "college/grad student"
+4862 M 25-34 other
+4863 F 25-34 homemaker
+4864 M 18-24 writer
+4865 F 35-44 sales/marketing
+4866 M 56+ programmer
+4867 M 25-34 self-employed
+4868 M 35-44 technician/engineer
+4869 F 45-49 "doctor/health care"
+4870 F 35-44 clerical/admin
+4871 M 18-24 programmer
+4872 M 45-49 academic/educator
+4873 M 56+ lawyer
+4874 F 25-34 "college/grad student"
+4875 M 35-44 other
+4876 F 35-44 technician/engineer
+4877 M 25-34 "college/grad student"
+4878 M 50-55 "college/grad student"
+4879 M 25-34 clerical/admin
+4880 F 45-49 homemaker
+4881 M 45-49 self-employed
+4882 M 45-49 lawyer
+4883 F "Under 18" "K-12 student"
+4884 M 35-44 sales/marketing
+4885 M 56+ academic/educator
+4886 F 35-44 technician/engineer
+4887 M 18-24 artist
+4888 F 56+ other
+4889 M 18-24 "college/grad student"
+4890 F 25-34 academic/educator
+4891 M 35-44 technician/engineer
+4892 M 25-34 programmer
+4893 M 25-34 technician/engineer
+4894 M 35-44 executive/managerial
+4895 F 25-34 clerical/admin
+4896 M 35-44 "doctor/health care"
+4897 M 35-44 self-employed
+4898 M 25-34 academic/educator
+4899 M 25-34 programmer
+4900 M 25-34 writer
+4901 M 25-34 executive/managerial
+4902 M 35-44 sales/marketing
+4903 M 35-44 programmer
+4904 M 50-55 scientist
+4905 F 45-49 academic/educator
+4906 M 50-55 technician/engineer
+4907 F 50-55 executive/managerial
+4908 M 35-44 scientist
+4909 F 35-44 programmer
+4910 M 18-24 programmer
+4911 F 25-34 other
+4912 F 50-55 writer
+4913 F 25-34 academic/educator
+4914 F 25-34 academic/educator
+4915 M 25-34 programmer
+4916 M 18-24 writer
+4917 M 45-49 other
+4918 F 18-24 programmer
+4919 M 18-24 other
+4920 M 35-44 academic/educator
+4921 F 25-34 scientist
+4922 M 18-24 technician/engineer
+4923 M 45-49 tradesman/craftsman
+4924 F 35-44 other
+4925 F 35-44 "doctor/health care"
+4926 M "Under 18" "K-12 student"
+4927 M 45-49 other
+4928 F 25-34 clerical/admin
+4929 M 45-49 academic/educator
+4930 M 50-55 technician/engineer
+4931 M 50-55 technician/engineer
+4932 M 25-34 executive/managerial
+4933 M 25-34 scientist
+4934 F 25-34 other
+4935 M 35-44 technician/engineer
+4936 F 18-24 "college/grad student"
+4937 M 35-44 other
+4938 F 18-24 "college/grad student"
+4939 M 25-34 executive/managerial
+4940 F 50-55 lawyer
+4941 M 56+ writer
+4942 M 45-49 programmer
+4943 F 50-55 other
+4944 M 50-55 technician/engineer
+4945 M 50-55 other
+4946 F 35-44 academic/educator
+4947 M 35-44 technician/engineer
+4948 M 45-49 artist
+4949 M 18-24 "college/grad student"
+4950 M 25-34 self-employed
+4951 F 35-44 technician/engineer
+4952 F 25-34 sales/marketing
+4953 M 35-44 programmer
+4954 M 45-49 other
+4955 M 56+ retired
+4956 M 35-44 scientist
+4957 M 25-34 artist
+4958 M 18-24 executive/managerial
+4959 M 25-34 technician/engineer
+4960 M 56+ academic/educator
+4961 M 25-34 executive/managerial
+4962 M 25-34 "doctor/health care"
+4963 M 45-49 technician/engineer
+4964 M 35-44 other
+4965 M "Under 18" "K-12 student"
+4966 M 50-55 sales/marketing
+4967 M 18-24 "college/grad student"
+4968 F 50-55 writer
+4969 M 18-24 unemployed
+4970 F 25-34 programmer
+4971 M 35-44 executive/managerial
+4972 M 35-44 other
+4973 F 56+ artist
+4974 M 35-44 writer
+4975 M 35-44 other
+4976 M 25-34 lawyer
+4977 M 25-34 "college/grad student"
+4978 M 35-44 sales/marketing
+4979 M 35-44 artist
+4980 M 25-34 academic/educator
+4981 M 50-55 academic/educator
+4982 M 25-34 programmer
+4983 F 45-49 self-employed
+4984 M 35-44 other
+4985 M 35-44 other
+4986 M 18-24 programmer
+4987 F 56+ farmer
+4988 M 25-34 technician/engineer
+4989 M 25-34 other
+4990 F 25-34 "college/grad student"
+4991 F 56+ sales/marketing
+4992 F 25-34 artist
+4993 M 45-49 technician/engineer
+4994 M 45-49 technician/engineer
+4995 M 50-55 writer
+4996 M 35-44 executive/managerial
+4997 M "Under 18" "K-12 student"
+4998 F 18-24 "college/grad student"
+4999 F 56+ retired
+5000 M 25-34 "college/grad student"
+5001 F 25-34 artist
+5002 M 25-34 technician/engineer
+5003 M 35-44 programmer
+5004 F 56+ academic/educator
+5005 M 45-49 self-employed
+5006 M 35-44 clerical/admin
+5007 F 18-24 "college/grad student"
+5008 M 25-34 writer
+5009 F 45-49 self-employed
+5010 M 45-49 scientist
+5011 M 18-24 "college/grad student"
+5012 M 50-55 scientist
+5013 M 18-24 "college/grad student"
+5014 M 45-49 other
+5015 M 35-44 "doctor/health care"
+5016 F 35-44 academic/educator
+5017 M 35-44 programmer
+5018 F 56+ programmer
+5019 M 25-34 executive/managerial
+5020 F 56+ retired
+5021 M 50-55 "doctor/health care"
+5022 M 35-44 executive/managerial
+5023 M 35-44 writer
+5024 F 45-49 academic/educator
+5025 M 25-34 writer
+5026 M 25-34 technician/engineer
+5027 F 25-34 sales/marketing
+5028 M 25-34 programmer
+5029 M 25-34 "college/grad student"
+5030 M 18-24 academic/educator
+5031 F 25-34 "college/grad student"
+5032 M 18-24 technician/engineer
+5033 F 56+ retired
+5034 F 25-34 scientist
+5035 F 25-34 technician/engineer
+5036 M 35-44 executive/managerial
+5037 M 35-44 programmer
+5038 M 25-34 writer
+5039 F 35-44 "college/grad student"
+5040 M 45-49 programmer
+5041 F 45-49 "doctor/health care"
+5042 F 18-24 artist
+5043 F 18-24 "doctor/health care"
+5044 F 35-44 "doctor/health care"
+5045 M 35-44 other
+5046 M 25-34 self-employed
+5047 M 45-49 "doctor/health care"
+5048 F 35-44 executive/managerial
+5049 M 25-34 programmer
+5050 F 18-24 "college/grad student"
+5051 F 50-55 executive/managerial
+5052 M 35-44 self-employed
+5053 M 25-34 "college/grad student"
+5054 M 35-44 artist
+5055 F 35-44 self-employed
+5056 M 45-49 academic/educator
+5057 M 50-55 executive/managerial
+5058 M 56+ technician/engineer
+5059 M 45-49 self-employed
+5060 M 45-49 technician/engineer
+5061 F 18-24 unemployed
+5062 M 50-55 self-employed
+5063 F "Under 18" "K-12 student"
+5064 M 18-24 "college/grad student"
+5065 M 25-34 sales/marketing
+5066 F 25-34 academic/educator
+5067 M 56+ retired
+5068 M 35-44 executive/managerial
+5069 F 56+ other
+5070 M 25-34 artist
+5071 F 25-34 executive/managerial
+5072 M 45-49 technician/engineer
+5073 M 56+ artist
+5074 M "Under 18" other
+5075 M 50-55 "doctor/health care"
+5076 M 25-34 clerical/admin
+5077 M 25-34 artist
+5078 M 45-49 executive/managerial
+5079 M 25-34 "college/grad student"
+5080 F 50-55 programmer
+5081 F 18-24 "college/grad student"
+5082 M 35-44 academic/educator
+5083 M 25-34 "college/grad student"
+5084 M 18-24 "college/grad student"
+5085 M 56+ technician/engineer
+5086 M 25-34 academic/educator
+5087 F 25-34 "doctor/health care"
+5088 M 25-34 technician/engineer
+5089 F 35-44 self-employed
+5090 F 35-44 unemployed
+5091 M 25-34 technician/engineer
+5092 M 56+ sales/marketing
+5093 M 50-55 executive/managerial
+5094 M 18-24 "K-12 student"
+5095 F 35-44 academic/educator
+5096 M 25-34 lawyer
+5097 M 56+ self-employed
+5098 M 50-55 executive/managerial
+5099 M 18-24 other
+5100 M 50-55 "doctor/health care"
+5101 M 25-34 other
+5102 M 25-34 programmer
+5103 F 35-44 self-employed
+5104 M 35-44 writer
+5105 M 50-55 executive/managerial
+5106 F 35-44 academic/educator
+5107 F 45-49 other
+5108 F 25-34 homemaker
+5109 F 45-49 "doctor/health care"
+5110 M 35-44 scientist
+5111 M 35-44 artist
+5112 M 35-44 retired
+5113 M 25-34 other
+5114 F "Under 18" "K-12 student"
+5115 M 56+ programmer
+5116 M 35-44 "doctor/health care"
+5117 F 25-34 other
+5118 M "Under 18" "K-12 student"
+5119 F 25-34 other
+5120 M 50-55 executive/managerial
+5121 M 25-34 executive/managerial
+5122 M 25-34 other
+5123 M 50-55 programmer
+5124 M 35-44 artist
+5125 M 45-49 other
+5126 M 25-34 lawyer
+5127 M 45-49 "customer service"
+5128 M 50-55 executive/managerial
+5129 M 45-49 technician/engineer
+5130 F 50-55 academic/educator
+5131 F 25-34 academic/educator
+5132 M 35-44 executive/managerial
+5133 M 18-24 lawyer
+5134 M 25-34 technician/engineer
+5135 M 35-44 executive/managerial
+5136 M 25-34 programmer
+5137 M 18-24 tradesman/craftsman
+5138 M 25-34 technician/engineer
+5139 M 50-55 self-employed
+5140 M 25-34 "doctor/health care"
+5141 M 18-24 technician/engineer
+5142 M 25-34 academic/educator
+5143 M 18-24 "college/grad student"
+5144 F 50-55 other
+5145 M 35-44 executive/managerial
+5146 M 56+ academic/educator
+5147 M 18-24 other
+5148 M 25-34 writer
+5149 M 35-44 academic/educator
+5150 M 25-34 clerical/admin
+5151 M 18-24 unemployed
+5152 F 25-34 "college/grad student"
+5153 M 25-34 executive/managerial
+5154 M 25-34 self-employed
+5155 M 25-34 self-employed
+5156 M 18-24 sales/marketing
+5157 M 35-44 academic/educator
+5158 F 18-24 "college/grad student"
+5159 M 35-44 executive/managerial
+5160 F 18-24 "college/grad student"
+5161 M 25-34 "college/grad student"
+5162 M 25-34 technician/engineer
+5163 M 45-49 "doctor/health care"
+5164 F 35-44 technician/engineer
+5165 M 35-44 "doctor/health care"
+5166 M 50-55 "doctor/health care"
+5167 M 18-24 scientist
+5168 M 35-44 executive/managerial
+5169 F 50-55 "college/grad student"
+5170 M 18-24 "college/grad student"
+5171 M 56+ technician/engineer
+5172 F 35-44 lawyer
+5173 M "Under 18" "K-12 student"
+5174 M 45-49 academic/educator
+5175 F 35-44 homemaker
+5176 M "Under 18" "K-12 student"
+5177 M 45-49 sales/marketing
+5178 M 50-55 other
+5179 M 25-34 programmer
+5180 M 35-44 lawyer
+5181 M 25-34 executive/managerial
+5182 F 35-44 executive/managerial
+5183 F 18-24 writer
+5184 M 18-24 writer
+5185 F 35-44 "college/grad student"
+5186 M 35-44 programmer
+5187 M 18-24 self-employed
+5188 F 35-44 homemaker
+5189 F 45-49 executive/managerial
+5190 F 35-44 other
+5191 F 25-34 "college/grad student"
+5192 M 25-34 executive/managerial
+5193 M 35-44 programmer
+5194 M 25-34 executive/managerial
+5195 M 35-44 executive/managerial
+5196 M 56+ executive/managerial
+5197 F 56+ clerical/admin
+5198 F 18-24 "college/grad student"
+5199 F 25-34 academic/educator
+5200 F 35-44 scientist
+5201 M 50-55 executive/managerial
+5202 M 18-24 "college/grad student"
+5203 F 45-49 "doctor/health care"
+5204 M 50-55 retired
+5205 M 25-34 academic/educator
+5206 M 35-44 executive/managerial
+5207 M 25-34 other
+5208 M 25-34 "college/grad student"
+5209 M 50-55 academic/educator
+5210 F 35-44 technician/engineer
+5211 M 25-34 academic/educator
+5212 M 18-24 artist
+5213 M 18-24 other
+5214 F 35-44 homemaker
+5215 F 56+ "doctor/health care"
+5216 M 18-24 artist
+5217 M 25-34 technician/engineer
+5218 M 18-24 other
+5219 M 18-24 "college/grad student"
+5220 M 25-34 executive/managerial
+5221 F 56+ academic/educator
+5222 M 25-34 programmer
+5223 M 56+ "K-12 student"
+5224 M 35-44 academic/educator
+5225 M 18-24 "college/grad student"
+5226 M 35-44 other
+5227 M 18-24 "K-12 student"
+5228 M "Under 18" other
+5229 M 25-34 other
+5230 M 25-34 programmer
+5231 M 35-44 executive/managerial
+5232 M 25-34 "college/grad student"
+5233 M 25-34 "customer service"
+5234 F 25-34 other
+5235 M 25-34 "college/grad student"
+5236 M 25-34 sales/marketing
+5237 M 25-34 executive/managerial
+5238 F 50-55 self-employed
+5239 M 35-44 executive/managerial
+5240 F 25-34 other
+5241 F 25-34 "college/grad student"
+5242 M 25-34 academic/educator
+5243 M "Under 18" "K-12 student"
+5244 M 18-24 "college/grad student"
+5245 F 45-49 academic/educator
+5246 F 18-24 other
+5247 F "Under 18" "K-12 student"
+5248 F 45-49 sales/marketing
+5249 F 45-49 sales/marketing
+5250 M 50-55 "doctor/health care"
+5251 F 25-34 technician/engineer
+5252 M 25-34 writer
+5253 F 56+ retired
+5254 M 18-24 "college/grad student"
+5255 M "Under 18" "K-12 student"
+5256 M 25-34 self-employed
+5257 F 25-34 artist
+5258 M 35-44 "college/grad student"
+5259 M 25-34 "doctor/health care"
+5260 M 35-44 executive/managerial
+5261 M 35-44 programmer
+5262 F 25-34 sales/marketing
+5263 M 35-44 executive/managerial
+5264 M 18-24 "college/grad student"
+5265 M 45-49 academic/educator
+5266 M 35-44 academic/educator
+5267 M 35-44 executive/managerial
+5268 F 25-34 artist
+5269 M 18-24 other
+5270 M 25-34 programmer
+5271 F 25-34 other
+5272 M 25-34 executive/managerial
+5273 M 56+ writer
+5274 M 25-34 other
+5275 M 25-34 technician/engineer
+5276 F 25-34 "college/grad student"
+5277 M 25-34 writer
+5278 F 25-34 executive/managerial
+5279 F 25-34 sales/marketing
+5280 M 18-24 "college/grad student"
+5281 M 25-34 artist
+5282 F 18-24 "college/grad student"
+5283 M 18-24 artist
+5284 M 25-34 self-employed
+5285 M 18-24 "college/grad student"
+5286 M 45-49 self-employed
+5287 M 25-34 farmer
+5288 M 56+ retired
+5289 M 45-49 artist
+5290 F 18-24 "college/grad student"
+5291 M 45-49 academic/educator
+5292 M 25-34 other
+5293 M 25-34 programmer
+5294 M 25-34 artist
+5295 M 35-44 executive/managerial
+5296 F "Under 18" other
+5297 M 25-34 programmer
+5298 M 35-44 technician/engineer
+5299 M 25-34 artist
+5300 M 25-34 writer
+5301 M 25-34 technician/engineer
+5302 F "Under 18" "K-12 student"
+5303 F 56+ "doctor/health care"
+5304 F 35-44 homemaker
+5305 F 18-24 "college/grad student"
+5306 F 25-34 technician/engineer
+5307 M 25-34 "customer service"
+5308 M 56+ executive/managerial
+5309 M 25-34 other
+5310 F 56+ academic/educator
+5311 M 50-55 other
+5312 M 25-34 academic/educator
+5313 M 56+ other
+5314 F 25-34 other
+5315 M 25-34 programmer
+5316 M 18-24 "college/grad student"
+5317 F 25-34 other
+5318 M 18-24 technician/engineer
+5319 M 18-24 technician/engineer
+5320 F 18-24 "customer service"
+5321 M 25-34 "college/grad student"
+5322 M 35-44 technician/engineer
+5323 M 25-34 writer
+5324 M 25-34 executive/managerial
+5325 F 50-55 executive/managerial
+5326 M 25-34 artist
+5327 M 25-34 executive/managerial
+5328 F 25-34 "college/grad student"
+5329 F 25-34 "customer service"
+5330 F 25-34 other
+5331 M 35-44 sales/marketing
+5332 M 18-24 "college/grad student"
+5333 F 25-34 executive/managerial
+5334 F 56+ retired
+5335 M 25-34 sales/marketing
+5336 M 56+ executive/managerial
+5337 F 35-44 clerical/admin
+5338 M 25-34 technician/engineer
+5339 M 18-24 technician/engineer
+5340 F 50-55 clerical/admin
+5341 F 25-34 clerical/admin
+5342 F 35-44 executive/managerial
+5343 F 25-34 homemaker
+5344 F 50-55 academic/educator
+5345 F 25-34 technician/engineer
+5346 F 25-34 clerical/admin
+5347 M 25-34 "doctor/health care"
+5348 M 18-24 "customer service"
+5349 F 50-55 artist
+5350 M 18-24 "customer service"
+5351 F 45-49 academic/educator
+5352 F 35-44 "customer service"
+5353 M 25-34 "doctor/health care"
+5354 F 45-49 clerical/admin
+5355 M 56+ other
+5356 M 45-49 other
+5357 F 18-24 writer
+5358 M 35-44 executive/managerial
+5359 M 18-24 self-employed
+5360 M 18-24 programmer
+5361 F 50-55 self-employed
+5362 M 35-44 retired
+5363 M 56+ retired
+5364 F 25-34 clerical/admin
+5365 M 18-24 programmer
+5366 M 18-24 programmer
+5367 M 18-24 "college/grad student"
+5368 F 25-34 technician/engineer
+5369 M 25-34 scientist
+5370 M 25-34 programmer
+5371 M 25-34 lawyer
+5372 M 25-34 "college/grad student"
+5373 M 18-24 programmer
+5374 M 35-44 executive/managerial
+5375 M 25-34 other
+5376 M 25-34 technician/engineer
+5377 F 18-24 clerical/admin
+5378 M 35-44 tradesman/craftsman
+5379 M 25-34 executive/managerial
+5380 M 18-24 "college/grad student"
+5381 M 25-34 sales/marketing
+5382 M 18-24 "college/grad student"
+5383 M 35-44 academic/educator
+5384 F 25-34 clerical/admin
+5385 M 25-34 programmer
+5386 M 25-34 sales/marketing
+5387 F 25-34 academic/educator
+5388 F 18-24 "college/grad student"
+5389 M 45-49 executive/managerial
+5390 M "Under 18" other
+5391 M 25-34 executive/managerial
+5392 M 50-55 academic/educator
+5393 M 35-44 executive/managerial
+5394 M 18-24 other
+5395 M 50-55 academic/educator
+5396 M 25-34 "doctor/health care"
+5397 M 18-24 other
+5398 M 56+ technician/engineer
+5399 M 25-34 academic/educator
+5400 F 18-24 "college/grad student"
+5401 F 18-24 academic/educator
+5402 F 25-34 other
+5403 M "Under 18" "K-12 student"
+5404 M 25-34 other
+5405 F 50-55 executive/managerial
+5406 F 35-44 other
+5407 F 35-44 technician/engineer
+5408 M 25-34 writer
+5409 M 45-49 academic/educator
+5410 F 45-49 artist
+5411 F "Under 18" unemployed
+5412 M 25-34 programmer
+5413 M 35-44 academic/educator
+5414 M "Under 18" "K-12 student"
+5415 F 25-34 executive/managerial
+5416 F 25-34 "customer service"
+5417 M 18-24 technician/engineer
+5418 F 25-34 other
+5419 F 18-24 programmer
+5420 F "Under 18" unemployed
+5421 M 35-44 technician/engineer
+5422 M 50-55 executive/managerial
+5423 F 50-55 "customer service"
+5424 F 35-44 artist
+5425 M 18-24 "college/grad student"
+5426 M 25-34 sales/marketing
+5427 M 35-44 unemployed
+5428 F 25-34 "doctor/health care"
+5429 F 25-34 academic/educator
+5430 F 45-49 academic/educator
+5431 M 56+ academic/educator
+5432 M 56+ retired
+5433 F 35-44 technician/engineer
+5434 F 25-34 executive/managerial
+5435 M 45-49 tradesman/craftsman
+5436 M 18-24 "college/grad student"
+5437 M 25-34 lawyer
+5438 M 25-34 sales/marketing
+5439 M 56+ retired
+5440 F 45-49 artist
+5441 M 50-55 executive/managerial
+5442 M 25-34 executive/managerial
+5443 M 25-34 programmer
+5444 F 18-24 "college/grad student"
+5445 M 25-34 other
+5446 F 50-55 academic/educator
+5447 M 45-49 artist
+5448 M 45-49 unemployed
+5449 M 18-24 programmer
+5450 M 18-24 programmer
+5451 F 25-34 academic/educator
+5452 M 35-44 "doctor/health care"
+5453 M 18-24 "college/grad student"
+5454 M 35-44 executive/managerial
+5455 F 18-24 technician/engineer
+5456 M 35-44 academic/educator
+5457 M 18-24 programmer
+5458 F 18-24 artist
+5459 F "Under 18" "K-12 student"
+5460 M 18-24 "college/grad student"
+5461 M 50-55 other
+5462 M 25-34 technician/engineer
+5463 M 35-44 other
+5464 M 35-44 executive/managerial
+5465 F 25-34 other
+5466 M 25-34 programmer
+5467 M 35-44 other
+5468 M 25-34 programmer
+5469 M 35-44 programmer
+5470 M 56+ executive/managerial
+5471 M 18-24 executive/managerial
+5472 M 35-44 academic/educator
+5473 M 25-34 academic/educator
+5474 M 25-34 programmer
+5475 M 25-34 "college/grad student"
+5476 F 35-44 other
+5477 M 35-44 academic/educator
+5478 M 35-44 executive/managerial
+5479 M 35-44 academic/educator
+5480 F 25-34 sales/marketing
+5481 M 45-49 programmer
+5482 M 18-24 executive/managerial
+5483 F 25-34 "doctor/health care"
+5484 M 45-49 technician/engineer
+5485 M 25-34 "college/grad student"
+5486 M 25-34 other
+5487 M 25-34 technician/engineer
+5488 M 25-34 scientist
+5489 M 18-24 executive/managerial
+5490 M 45-49 technician/engineer
+5491 M 18-24 executive/managerial
+5492 M 18-24 "college/grad student"
+5493 M 35-44 programmer
+5494 F 35-44 technician/engineer
+5495 F 18-24 "college/grad student"
+5496 M 25-34 executive/managerial
+5497 M 25-34 "college/grad student"
+5498 F 50-55 academic/educator
+5499 F 25-34 unemployed
+5500 F 35-44 writer
+5501 M 25-34 artist
+5502 M 25-34 artist
+5503 F 25-34 homemaker
+5504 M 45-49 executive/managerial
+5505 F 25-34 "college/grad student"
+5506 F 18-24 sales/marketing
+5507 M 45-49 executive/managerial
+5508 M 25-34 writer
+5509 M 25-34 other
+5510 M 18-24 "college/grad student"
+5511 M 45-49 academic/educator
+5512 F 25-34 technician/engineer
+5513 M 35-44 academic/educator
+5514 F "Under 18" "K-12 student"
+5515 M 18-24 "college/grad student"
+5516 F 50-55 self-employed
+5517 M 56+ other
+5518 M 50-55 technician/engineer
+5519 M 35-44 scientist
+5520 M 45-49 academic/educator
+5521 F 25-34 "doctor/health care"
+5522 M 25-34 sales/marketing
+5523 M 35-44 other
+5524 F "Under 18" "K-12 student"
+5525 F "Under 18" "K-12 student"
+5526 F 35-44 artist
+5527 M 25-34 academic/educator
+5528 M 50-55 academic/educator
+5529 M 18-24 "doctor/health care"
+5530 F 18-24 "college/grad student"
+5531 M 50-55 technician/engineer
+5532 M 25-34 technician/engineer
+5533 F 50-55 artist
+5534 M 45-49 self-employed
+5535 M 25-34 scientist
+5536 M 25-34 self-employed
+5537 F 56+ academic/educator
+5538 M 45-49 programmer
+5539 F 25-34 writer
+5540 M 35-44 academic/educator
+5541 M 56+ executive/managerial
+5542 M 45-49 executive/managerial
+5543 M 25-34 technician/engineer
+5544 M 25-34 scientist
+5545 F 35-44 self-employed
+5546 M 18-24 sales/marketing
+5547 F 18-24 "college/grad student"
+5548 F 18-24 "college/grad student"
+5549 F 50-55 homemaker
+5550 M 35-44 scientist
+5551 F 35-44 writer
+5552 M 50-55 executive/managerial
+5553 M 35-44 clerical/admin
+5554 M 25-34 academic/educator
+5555 M "Under 18" "K-12 student"
+5556 M 45-49 "doctor/health care"
+5557 M 35-44 sales/marketing
+5558 M "Under 18" "K-12 student"
+5559 M 50-55 academic/educator
+5560 F 35-44 technician/engineer
+5561 F 25-34 clerical/admin
+5562 F 35-44 academic/educator
+5563 F 25-34 executive/managerial
+5564 M 45-49 writer
+5565 M 18-24 technician/engineer
+5566 M 35-44 executive/managerial
+5567 M 50-55 clerical/admin
+5568 M 18-24 "college/grad student"
+5569 F 18-24 academic/educator
+5570 M 25-34 academic/educator
+5571 F 25-34 homemaker
+5572 F 25-34 "college/grad student"
+5573 F 35-44 academic/educator
+5574 M 25-34 other
+5575 M 35-44 executive/managerial
+5576 M 25-34 "college/grad student"
+5577 M 50-55 academic/educator
+5578 F 18-24 academic/educator
+5579 F 35-44 executive/managerial
+5580 M 45-49 executive/managerial
+5581 M 25-34 other
+5582 M 45-49 academic/educator
+5583 M 56+ scientist
+5584 F 50-55 other
+5585 M 25-34 "college/grad student"
+5586 M 35-44 writer
+5587 M 25-34 technician/engineer
+5588 F 25-34 writer
+5589 F 25-34 other
+5590 F 45-49 programmer
+5591 M 18-24 other
+5592 M 25-34 academic/educator
+5593 M 50-55 self-employed
+5594 F 45-49 other
+5595 M 25-34 writer
+5596 M 35-44 programmer
+5597 F 18-24 "college/grad student"
+5598 M 18-24 "college/grad student"
+5599 M 35-44 executive/managerial
+5600 F 45-49 other
+5601 M 35-44 academic/educator
+5602 M 35-44 other
+5603 M 50-55 executive/managerial
+5604 M 35-44 scientist
+5605 F 18-24 artist
+5606 F 25-34 sales/marketing
+5607 M 18-24 "college/grad student"
+5608 M 18-24 clerical/admin
+5609 F 50-55 academic/educator
+5610 F 25-34 academic/educator
+5611 F 35-44 executive/managerial
+5612 F 25-34 academic/educator
+5613 F 35-44 other
+5614 M 25-34 other
+5615 M 35-44 executive/managerial
+5616 M 45-49 academic/educator
+5617 M 25-34 sales/marketing
+5618 F 18-24 "college/grad student"
+5619 F 18-24 "college/grad student"
+5620 M 35-44 sales/marketing
+5621 M 25-34 executive/managerial
+5622 M 35-44 scientist
+5623 M 25-34 lawyer
+5624 M 25-34 executive/managerial
+5625 M 25-34 academic/educator
+5626 M 56+ self-employed
+5627 M 25-34 other
+5628 M 18-24 "college/grad student"
+5629 M 25-34 sales/marketing
+5630 M 35-44 technician/engineer
+5631 M 35-44 programmer
+5632 F 18-24 "college/grad student"
+5633 M 50-55 academic/educator
+5634 M 25-34 sales/marketing
+5635 F 35-44 homemaker
+5636 M 25-34 executive/managerial
+5637 M "Under 18" "K-12 student"
+5638 M 18-24 academic/educator
+5639 F 18-24 "college/grad student"
+5640 M 35-44 technician/engineer
+5641 F 25-34 technician/engineer
+5642 M "Under 18" "K-12 student"
+5643 F 35-44 academic/educator
+5644 F 18-24 "college/grad student"
+5645 M 25-34 artist
+5646 M 18-24 "college/grad student"
+5647 M 18-24 academic/educator
+5648 M 25-34 technician/engineer
+5649 F 18-24 "college/grad student"
+5650 F 35-44 programmer
+5651 F 25-34 "doctor/health care"
+5652 M 18-24 other
+5653 M 50-55 academic/educator
+5654 M 25-34 "college/grad student"
+5655 F 25-34 "doctor/health care"
+5656 M 25-34 scientist
+5657 M 50-55 sales/marketing
+5658 M 56+ other
+5659 M 25-34 other
+5660 M 25-34 artist
+5661 F 25-34 scientist
+5662 M "Under 18" "K-12 student"
+5663 F 35-44 writer
+5664 M 18-24 "college/grad student"
+5665 M 18-24 "college/grad student"
+5666 M 18-24 self-employed
+5667 M 35-44 executive/managerial
+5668 F 25-34 clerical/admin
+5669 M 56+ academic/educator
+5670 M 18-24 "college/grad student"
+5671 M 25-34 academic/educator
+5672 F 25-34 "college/grad student"
+5673 F 35-44 academic/educator
+5674 M 35-44 executive/managerial
+5675 M 35-44 sales/marketing
+5676 M 25-34 writer
+5677 M 25-34 academic/educator
+5678 M 35-44 technician/engineer
+5679 M 35-44 artist
+5680 M 50-55 writer
+5681 F 25-34 executive/managerial
+5682 M 18-24 other
+5683 F 18-24 homemaker
+5684 M 18-24 self-employed
+5685 M 25-34 technician/engineer
+5686 M 56+ self-employed
+5687 F "Under 18" other
+5688 F 18-24 "college/grad student"
+5689 M 25-34 other
+5690 M 18-24 "college/grad student"
+5691 M 35-44 sales/marketing
+5692 F 25-34 executive/managerial
+5693 F 25-34 "college/grad student"
+5694 F 25-34 programmer
+5695 F 35-44 clerical/admin
+5696 F 25-34 sales/marketing
+5697 M 25-34 other
+5698 M 35-44 sales/marketing
+5699 M 35-44 scientist
+5700 F 18-24 sales/marketing
+5701 M 25-34 executive/managerial
+5702 M 18-24 other
+5703 M 56+ academic/educator
+5704 F 18-24 "college/grad student"
+5705 F 18-24 "college/grad student"
+5706 M 18-24 technician/engineer
+5707 M 25-34 programmer
+5708 M 35-44 academic/educator
+5709 M 18-24 "college/grad student"
+5710 M 25-34 scientist
+5711 M 25-34 executive/managerial
+5712 M 35-44 academic/educator
+5713 F 50-55 executive/managerial
+5714 M 35-44 artist
+5715 M 18-24 "college/grad student"
+5716 M "Under 18" "K-12 student"
+5717 M 25-34 other
+5718 F 35-44 sales/marketing
+5719 M 56+ executive/managerial
+5720 M 25-34 other
+5721 M 45-49 lawyer
+5722 M 25-34 writer
+5723 M 18-24 programmer
+5724 M 25-34 scientist
+5725 M 18-24 artist
+5726 M 25-34 academic/educator
+5727 M 25-34 "college/grad student"
+5728 F 35-44 writer
+5729 M 18-24 "K-12 student"
+5730 M 18-24 other
+5731 F 25-34 lawyer
+5732 F 25-34 lawyer
+5733 M 25-34 "college/grad student"
+5734 F 25-34 sales/marketing
+5735 M 25-34 "doctor/health care"
+5736 M 25-34 academic/educator
+5737 M 45-49 scientist
+5738 M 25-34 programmer
+5739 M 25-34 executive/managerial
+5740 M 25-34 academic/educator
+5741 M 50-55 retired
+5742 F 25-34 programmer
+5743 F 35-44 other
+5744 F 25-34 "college/grad student"
+5745 F 18-24 "college/grad student"
+5746 M 18-24 scientist
+5747 M 25-34 other
+5748 M 25-34 other
+5749 M 25-34 artist
+5750 M 18-24 academic/educator
+5751 F "Under 18" other
+5752 F 56+ other
+5753 M 18-24 technician/engineer
+5754 F 18-24 academic/educator
+5755 F 35-44 artist
+5756 F "Under 18" "K-12 student"
+5757 M "Under 18" "K-12 student"
+5758 F 50-55 academic/educator
+5759 F 25-34 academic/educator
+5760 M 18-24 programmer
+5761 M 25-34 writer
+5762 F 35-44 "doctor/health care"
+5763 F 25-34 academic/educator
+5764 F 50-55 programmer
+5765 M 25-34 lawyer
+5766 M 56+ sales/marketing
+5767 M 25-34 artist
+5768 F "Under 18" executive/managerial
+5769 M 45-49 sales/marketing
+5770 M 25-34 other
+5771 M 25-34 executive/managerial
+5772 M 35-44 executive/managerial
+5773 M 25-34 "doctor/health care"
+5774 M 18-24 "college/grad student"
+5775 M 25-34 lawyer
+5776 M 18-24 programmer
+5777 M "Under 18" other
+5778 M 35-44 programmer
+5779 M 25-34 "customer service"
+5780 M 18-24 technician/engineer
+5781 M 25-34 artist
+5782 F 35-44 other
+5783 F 45-49 academic/educator
+5784 M 18-24 "K-12 student"
+5785 F 25-34 executive/managerial
+5786 M 25-34 "doctor/health care"
+5787 M 25-34 writer
+5788 M 25-34 other
+5789 M 25-34 technician/engineer
+5790 F 35-44 other
+5791 M 18-24 "college/grad student"
+5792 M 25-34 technician/engineer
+5793 M 25-34 artist
+5794 M 35-44 technician/engineer
+5795 M 25-34 academic/educator
+5796 F 25-34 executive/managerial
+5797 M 25-34 executive/managerial
+5798 M 35-44 other
+5799 M 25-34 "customer service"
+5800 M 35-44 tradesman/craftsman
+5801 M 25-34 self-employed
+5802 F 25-34 other
+5803 M "Under 18" "K-12 student"
+5804 F 35-44 executive/managerial
+5805 F 25-34 other
+5806 F 50-55 academic/educator
+5807 M 35-44 executive/managerial
+5808 F 25-34 executive/managerial
+5809 M 25-34 executive/managerial
+5810 M 50-55 self-employed
+5811 M 18-24 "college/grad student"
+5812 F 25-34 executive/managerial
+5813 M 25-34 executive/managerial
+5814 M 25-34 other
+5815 M 25-34 writer
+5816 M 25-34 other
+5817 M 25-34 technician/engineer
+5818 M 25-34 "college/grad student"
+5819 M 50-55 "doctor/health care"
+5820 M 45-49 other
+5821 M 25-34 scientist
+5822 F 35-44 "college/grad student"
+5823 M 25-34 programmer
+5824 M 18-24 programmer
+5825 F 25-34 "college/grad student"
+5826 M 18-24 "college/grad student"
+5827 M 25-34 artist
+5828 M 25-34 technician/engineer
+5829 F 25-34 "college/grad student"
+5830 F 18-24 "college/grad student"
+5831 M 25-34 academic/educator
+5832 F 25-34 other
+5833 F 35-44 other
+5834 M 56+ self-employed
+5835 F 35-44 other
+5836 M 25-34 other
+5837 M 25-34 executive/managerial
+5838 F 45-49 executive/managerial
+5839 M 25-34 academic/educator
+5840 F "Under 18" other
+5841 F 35-44 executive/managerial
+5842 M 25-34 "college/grad student"
+5843 M 35-44 academic/educator
+5844 F "Under 18" "K-12 student"
+5845 F 25-34 clerical/admin
+5846 M 45-49 self-employed
+5847 F 18-24 "college/grad student"
+5848 M 50-55 writer
+5849 M 35-44 technician/engineer
+5850 F 25-34 executive/managerial
+5851 F 18-24 writer
+5852 F 25-34 academic/educator
+5853 M 50-55 unemployed
+5854 M 45-49 executive/managerial
+5855 M 50-55 executive/managerial
+5856 F 25-34 executive/managerial
+5857 F 45-49 artist
+5858 M 25-34 "college/grad student"
+5859 M 25-34 executive/managerial
+5860 F 25-34 "college/grad student"
+5861 F 50-55 academic/educator
+5862 F 25-34 homemaker
+5863 F 25-34 sales/marketing
+5864 F 50-55 academic/educator
+5865 M 25-34 technician/engineer
+5866 F 25-34 "doctor/health care"
+5867 F 45-49 clerical/admin
+5868 M 35-44 sales/marketing
+5869 F 25-34 executive/managerial
+5870 M 25-34 sales/marketing
+5871 F 25-34 "college/grad student"
+5872 M 25-34 technician/engineer
+5873 M 18-24 programmer
+5874 M 25-34 "college/grad student"
+5875 M 25-34 "college/grad student"
+5876 M 50-55 executive/managerial
+5877 M 18-24 programmer
+5878 F 25-34 other
+5879 M 35-44 executive/managerial
+5880 M 25-34 academic/educator
+5881 M 35-44 technician/engineer
+5882 M 35-44 executive/managerial
+5883 F 18-24 other
+5884 M 18-24 "college/grad student"
+5885 M 25-34 academic/educator
+5886 M 25-34 writer
+5887 F 35-44 writer
+5888 M 25-34 writer
+5889 M 50-55 writer
+5890 M 35-44 writer
+5891 M 18-24 "college/grad student"
+5892 M 45-49 artist
+5893 M 25-34 executive/managerial
+5894 M 35-44 other
+5895 M 25-34 academic/educator
+5896 M 25-34 other
+5897 M 25-34 writer
+5898 F 18-24 other
+5899 M 35-44 technician/engineer
+5900 M 25-34 executive/managerial
+5901 F 35-44 executive/managerial
+5902 M 50-55 self-employed
+5903 M 25-34 lawyer
+5904 F 45-49 programmer
+5905 F 35-44 writer
+5906 F 18-24 "college/grad student"
+5907 M 25-34 artist
+5908 M 25-34 "college/grad student"
+5909 M 18-24 writer
+5910 F 45-49 writer
+5911 F 25-34 technician/engineer
+5912 M 25-34 academic/educator
+5913 F 18-24 other
+5914 M 35-44 artist
+5915 M 18-24 "college/grad student"
+5916 M 50-55 writer
+5917 F 50-55 academic/educator
+5918 M 25-34 programmer
+5919 M 18-24 other
+5920 F 25-34 academic/educator
+5921 M 25-34 "doctor/health care"
+5922 M 56+ clerical/admin
+5923 M 25-34 executive/managerial
+5924 M 35-44 other
+5925 F 25-34 other
+5926 F 50-55 executive/managerial
+5927 M 35-44 sales/marketing
+5928 M 45-49 academic/educator
+5929 F 35-44 other
+5930 F 35-44 technician/engineer
+5931 F 18-24 executive/managerial
+5932 M 18-24 sales/marketing
+5933 M 25-34 artist
+5934 M 25-34 sales/marketing
+5935 M 18-24 other
+5936 M 18-24 "college/grad student"
+5937 M 25-34 programmer
+5938 M 25-34 academic/educator
+5939 F 45-49 scientist
+5940 M 50-55 programmer
+5941 F 25-34 other
+5942 M 45-49 academic/educator
+5943 F 45-49 academic/educator
+5944 F 18-24 "K-12 student"
+5945 F 35-44 artist
+5946 F 56+ academic/educator
+5947 F 45-49 self-employed
+5948 M 56+ retired
+5949 M 18-24 technician/engineer
+5950 M 25-34 "college/grad student"
+5951 M 18-24 "college/grad student"
+5952 F 45-49 academic/educator
+5953 M "Under 18" "K-12 student"
+5954 M 45-49 lawyer
+5956 F 18-24 "college/grad student"
+5957 M 18-24 writer
+5958 M 45-49 sales/marketing
+5963 M 25-34 scientist
+5964 M 18-24 "customer service"
+5966 F 35-44 homemaker
+5969 M 45-49 retired
+5971 M 35-44 executive/managerial
+5972 F 25-34 writer
+5978 M 35-44 academic/educator
+5985 F 18-24 "college/grad student"
+5988 M 25-34 scientist
+5989 F "Under 18" "K-12 student"
+5995 F 35-44 academic/educator
+5996 F 25-34 other
+5997 F 25-34 executive/managerial
+6000 M 45-49 technician/engineer
+6001 F 25-34 executive/managerial
+6002 M 50-55 other
+6003 F 45-49 technician/engineer
+6006 F "Under 18" other
+6010 M 35-44 other
+6011 M 35-44 scientist
+6013 F 25-34 writer
+6016 M 45-49 academic/educator
+6040 M 25-34 "doctor/health care"
