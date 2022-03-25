@@ -1,9 +1,7 @@
 
 import ray
 import modin.pandas as pd
-import itertools
 import copy
-from functools import reduce
 import numpy as np
 import sys
 
