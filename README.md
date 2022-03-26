@@ -22,3 +22,13 @@ Python 3.8
 
 ## Reproducing the results
 To run our code, you need to run ./graphtempo.py inside the `datasets` folder, and provide a set of arguments to customize the aggregation, that is: the folder of the dataset e.g. dblp_dataset, the type of temporal operator, 
+
+
+ // Parameters
+ int MAX_ITERATIONS = 30;
+ int NUMBER_OF_DIRECTIONS = 30;
+ double PRECISION_OF_SOLUTION = pow(10, -8);
+ double PRECISION_OF_CAT_RATIO = pow(10, -4);
+ int TIMES_TO_TRY_FOR_INITIAL_POINT = 100;
+ double INITIAL_STEP = 1.0;
+ int SMALLER_ALLOWED_STEP = pow(10, -10);
