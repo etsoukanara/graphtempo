@@ -21,7 +21,17 @@ This repository facilitates both temporal and attribute aggregation by introduci
 Python 3.8
 
 ## Reproducing the results
-To run our code, you need to run ./graphtempo.py inside the `datasets` folder, and provide a set of arguments to customize the aggregation, that is: the folder of the dataset e.g. dblp_dataset, the type of temporal operator, 
+To run our code, you need to run graphtempo.py inside the `datasets` folder, and provide a set of arguments to customize the aggregation, that is: 1. the folder of the dataset, 2. the type of temporal operator (union | intersection | difference), 3. the type of attrubutes (static | time-varying | mixed), 4. the type of aggregation (all | distinct), 5. the preferred static attributes (gender for DBLP, and gender, age, occupation for MovieLens dataset) or any combination of them, 6. the preferred time-varying attributes (#publications for DBLP, and rating for MovieLens), 7. starting time point for the first interval, 8. ending time point for the first interval, 9. starting time point for the second interval, 10. ending time point for the second interval.
 
 
     Parameters
+    1. dblp_dataset | movielens_dataset
+    2. u | x | f
+    3. s | v | m
+    4. a | d
+    5. g | a | o | ga | go | ao | gao
+    6. p | r
+    7., 8., 9., 10. index (0 corresponds to the 1st time point)
+
+    Example:
+    ./graphtempo.py movielens_dataset u v d g p 0 2 5 6
