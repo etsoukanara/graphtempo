@@ -17,6 +17,10 @@ The code repository for the following paper:
 ## General Information
 This repository facilitates both temporal and attribute aggregation by introducing a set of temporal projections and enabling aggregation on static, time-varying node attributes and combinations of them. Also, provide an exploratory strategy to assess the evolution of the graph in terms of _stability_, _shrinkage_, and _growth_. The datasets used in this paper is provided in `datasets`.
 
+## Datasets
+_DBLP_: directed collaboration dataset that spans over a period of 21 years (2000 to 2020) and includes publicatoins at 21 conferences related to data management research areas. Each node corresponds to an author and is attributed with one static label (gender), and a time-varying one (#publications)
+_MovieLens_: built on the benchmark movie ratings dataset, is a directed mutual rating dataset covering a period of six months (May 1st, 2000 to October 31st, 2000) where each node represents a user and an edge denotes that two users have rated the same movie, and is attributed with three static (gender, age, occupation) and a time-varying attribute (average rating per month).
+
 ## Dependencies
 Python 3.8
 
