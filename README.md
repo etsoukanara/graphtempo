@@ -24,4 +24,4 @@ Python 3.8
 To run our code, you need to run ./graphtempo.py inside the `datasets` folder, and provide a set of arguments to customize the aggregation, that is: the folder of the dataset e.g. dblp_dataset, the type of temporal operator, 
 
 
- Parameters
+    Parameters
