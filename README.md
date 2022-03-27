@@ -48,4 +48,4 @@ To run the exploration algorithms, you need to run exploration.py inside the `da
     Example:
     ./exploration.py dblp_dataset
 
-Outputs a .txt file for each event (stability, growth, shrinkage) with the intervals corresponding for each _k_ as defined in our Experiments.
+Outputs a .txt file for each event (stability, growth, shrinkage) with the intervals corresponding for each _k_ as defined in our **Evaluation** section.
