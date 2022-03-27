@@ -40,3 +40,11 @@ To run our code, you need to run graphtempo.py inside the `datasets` folder, and
 
     Example:
     ./graphtempo.py movielens_dataset u v d g p 0 2 5 6
+    
+Outputs a .txt file with the aggregate nodes information (attribute: weight) and a .txt file with the aggregate edges information ((attribute,attribute): weight).
+
+To run the exploration algorithms, you need to run exploration.py inside the `datasets` folder, and provide the dataset folder
+    Example:
+    ./exploration.py dblp_dataset
+
+Outputs a .txt file for each event (stability, growth, shrinkage) with the intervals corresponding for each _k_ as defined in our Experiments.
