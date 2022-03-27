@@ -31,7 +31,7 @@ Python 3.8
 
     Parameters
     1. dblp_dataset | movielens_dataset
-    2. u | x | f
+    2. 2. u | x | f
     3. s | v | m
     4. a | d
     5. g | a | o | ga | go | ao | gao
