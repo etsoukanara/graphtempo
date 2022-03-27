@@ -6,50 +6,6 @@ import numpy as np
 import sys
 
 
-filename = sys.argv[1]
-
-if filename == 'movielens_dataset':
-    # READ edges, nodes, static and variant attributes from csv
-    edges_df = pd.read_csv(filename + '/edges.csv', sep=' ')
-    edges_df.set_index(['Left', 'Right'], inplace=True)
-    nodes_df = pd.read_csv(filename + '/nodes.csv', sep=' ', index_col=0)
-    time_variant_attr = pd.read_csv(filename + '/time_variant_attr.csv', sep=' ', index_col=0)
-    time_invariant_attr = pd.read_csv(filename + '/time_invariant_attr.csv', sep=' ', index_col=0)
-
-    # replace notation of attributes
-    time_invariant_attr.gender.replace(['F','M'], [0,1],inplace=True)
-    time_invariant_attr.occupation.replace(['other', 'academic/educator', 'artist', \
-            'clerical/admin', 'college/grad student', 'customer service', \
-            'doctor/health care', 'executive/managerial', 'farmer', 'homemaker', \
-            'K-12 student', 'lawyer', 'programmer', 'retired', 'sales/marketing', \
-            'scientist', 'self-employed', 'technician/engineer', \
-            'tradesman/craftsman', 'unemployed', 'writer'], [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, \
-            15, 16, 17, 18, 19, 20], inplace=True)
-    time_invariant_attr.age.replace(['Under 18', '18-24', \
-                        '25-34', '35-44', '45-49', '50-55', '56+'], [1, 18, 25, 35, 45, 50, 56], inplace=True)
-
-    intvl = ['may','jun','jul','aug','sep','oct']
-
-if filename == 'dblp_dataset':
-    # READ edges, nodes, static and variant attributes from csv
-    edges_df = pd.read_csv(filename + '/edges.csv', sep=' ', index_col=[0,1])
-    nodes_df = pd.read_csv(filename + '/nodes.csv', sep=' ', index_col=0)
-    time_variant_attr = pd.read_csv(filename + '/time_variant_attr.csv', sep=' ', index_col=0)
-    time_invariant_attr = pd.read_csv(filename + '/time_invariant_attr.csv', sep=' ', index_col=0)
-    time_invariant_attr.rename(columns={'0': 'gender'}, inplace=True)
-    nodes_df.index.names = ['userID']
-    #time_invariant_attr.gender.replace(['female','male'], ['F','M'],inplace=True)
-
-    # replace notation for gender attribute
-    time_invariant_attr.gender.replace(['female','male'], [0,1],inplace=True)
-
-    intvl = [str(i) for i in range(2000,2021)]
-    
-
-#stc_attrs = ['gender','age','occupation']
-stc_attrs = ['gender']
-
-
 ######## UNION STATIC
 def Union_Static(nodesdf,edgesdf,tia,intvl):
     # get union of nodes and edges on interval
@@ -398,92 +354,131 @@ def Dims_Eff(dims,agg_std):
     agg = [nagg,eagg]
     return(agg)
 
+if __name__ == '__main__':  
+    filename = sys.argv[1]
+    
+    if filename == 'movielens_dataset':
+        # READ edges, nodes, static and variant attributes from csv
+        edges_df = pd.read_csv(filename + '/edges.csv', sep=' ')
+        edges_df.set_index(['Left', 'Right'], inplace=True)
+        nodes_df = pd.read_csv(filename + '/nodes.csv', sep=' ', index_col=0)
+        time_variant_attr = pd.read_csv(filename + '/time_variant_attr.csv', sep=' ', index_col=0)
+        time_invariant_attr = pd.read_csv(filename + '/time_invariant_attr.csv', sep=' ', index_col=0)
+    
+        # replace notation of attributes
+        time_invariant_attr.gender.replace(['F','M'], [0,1],inplace=True)
+        time_invariant_attr.occupation.replace(['other', 'academic/educator', 'artist', \
+                'clerical/admin', 'college/grad student', 'customer service', \
+                'doctor/health care', 'executive/managerial', 'farmer', 'homemaker', \
+                'K-12 student', 'lawyer', 'programmer', 'retired', 'sales/marketing', \
+                'scientist', 'self-employed', 'technician/engineer', \
+                'tradesman/craftsman', 'unemployed', 'writer'], [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, \
+                15, 16, 17, 18, 19, 20], inplace=True)
+        time_invariant_attr.age.replace(['Under 18', '18-24', \
+                            '25-34', '35-44', '45-49', '50-55', '56+'], [1, 18, 25, 35, 45, 50, 56], inplace=True)
+    
+        intvl = ['may','jun','jul','aug','sep','oct']
+    
+    if filename == 'dblp_dataset':
+        # READ edges, nodes, static and variant attributes from csv
+        edges_df = pd.read_csv(filename + '/edges.csv', sep=' ', index_col=[0,1])
+        nodes_df = pd.read_csv(filename + '/nodes.csv', sep=' ', index_col=0)
+        time_variant_attr = pd.read_csv(filename + '/time_variant_attr.csv', sep=' ', index_col=0)
+        time_invariant_attr = pd.read_csv(filename + '/time_invariant_attr.csv', sep=' ', index_col=0)
+        time_invariant_attr.rename(columns={'0': 'gender'}, inplace=True)
+        nodes_df.index.names = ['userID']
+        #time_invariant_attr.gender.replace(['female','male'], ['F','M'],inplace=True)
+    
+        # replace notation for gender attribute
+        time_invariant_attr.gender.replace(['female','male'], [0,1],inplace=True)
+    
+        intvl = [str(i) for i in range(2000,2021)]
 
-
-if sys.argv[5] == 'g':
-    static = ['gender']
-elif sys.argv[5] == 'a':
-    static = ['age']
-elif sys.argv[5] == 'o':
-    static = ['occupation']
-elif sys.argv[5] == 'ga':
-    static = ['gender', 'age']
-elif sys.argv[5] == 'go':
-    static = ['gender', 'occupation']
-elif sys.argv[5] == 'ao':
-    static = ['age', 'occupation']
-elif sys.argv[5] == 'gao':
-    static = ['gender', 'age', 'occupation']
-
-interval = intvl[int(sys.argv[7]): int(sys.argv[8])] + intvl[int(sys.argv[9]): int(sys.argv[10])]
-interval_diff1 = intvl[int(sys.argv[7]): int(sys.argv[8])]
-interval_diff2 = intvl[int(sys.argv[9]): int(sys.argv[10])]
-
-#union
-if sys.argv[2] == 'u' and sys.argv[3] == 's' and sys.argv[4] == 'a':
-    res, tia = Union_Static(nodes_df,edges_df,time_invariant_attr,interval)
-    agg = Aggregate_Static_All(res,tia,static)
-elif sys.argv[2] == 'u' and sys.argv[3] == 's' and sys.argv[4] == 'd':
-    res, tia = Union_Static(nodes_df,edges_df,time_invariant_attr,interval)
-    agg = Aggregate_Static_Dist(res,tia,static)
-elif sys.argv[2] == 'u' and sys.argv[3] == 'v' and sys.argv[4] == 'a':
-    res, tva = Union_Variant(nodes_df,edges_df,time_variant_attr,interval)
-    agg = Aggregate_Variant_All(res,tva,interval)
-elif sys.argv[2] == 'u' and sys.argv[3] == 'v' and sys.argv[4] == 'd':
-    res, tva = Union_Variant(nodes_df,edges_df,time_variant_attr,interval)
-    agg = Aggregate_Variant_Dist(res,tva,interval)
-elif sys.argv[2] == 'u' and sys.argv[3] == 'm' and sys.argv[4] == 'a':
-    res, tia, tva = Union_StcVar(nodes_df,edges_df,time_invariant_attr,time_variant_attr,interval)
-    agg = Aggregate_Mix_All(res,tva,tia,static,interval)
-elif sys.argv[2] == 'u' and sys.argv[3] == 'm' and sys.argv[4] == 'd':
-    res, tia, tva = Union_StcVar(nodes_df,edges_df,time_invariant_attr,time_variant_attr,interval)
-    agg = Aggregate_Mix_Dist(res,tva,tia,static,interval)
-#intersection
-if sys.argv[2] == 'x' and sys.argv[3] == 's' and sys.argv[4] == 'a':
-    res, tia = Intersection_Static(nodes_df,edges_df,time_invariant_attr,interval)
-    agg = Aggregate_Static_All(res,tia,static)
-elif sys.argv[2] == 'x' and sys.argv[3] == 's' and sys.argv[4] == 'd':
-    res, tia = Intersection_Static(nodes_df,edges_df,time_invariant_attr,interval)
-    agg = Aggregate_Static_Dist(res,tia,static)
-elif sys.argv[2] == 'x' and sys.argv[3] == 'v' and sys.argv[4] == 'a':
-    res, tva = Intersection_Variant(nodes_df,edges_df,time_variant_attr,interval)
-    agg = Aggregate_Variant_All(res,tva,interval)
-elif sys.argv[2] == 'x' and sys.argv[3] == 'v' and sys.argv[4] == 'd':
-    res, tva = Intersection_Variant(nodes_df,edges_df,time_variant_attr,interval)
-    agg = Aggregate_Variant_Dist(res,tva,interval)
-elif sys.argv[2] == 'x' and sys.argv[3] == 'm' and sys.argv[4] == 'a':
-    res, tia, tva = Intersection_StcVar(nodes_df,edges_df,time_invariant_attr,time_variant_attr,interval)
-    agg = Aggregate_Mix_All(res,tva,tia,static,interval)
-elif sys.argv[2] == 'x' and sys.argv[3] == 'm' and sys.argv[4] == 'd':
-    res, tia, tva = Intersection_StcVar(nodes_df,edges_df,time_invariant_attr,time_variant_attr,interval)
-    agg = Aggregate_Mix_Dist(res,tva,tia,static,interval)
-#difference
-if sys.argv[2] == 'f' and sys.argv[3] == 's' and sys.argv[4] == 'a':
-    res, tia = Diff_Static(nodes_df,edges_df,time_invariant_attr,interval_diff1,interval_diff2)
-    agg_tmp = Aggregate_Static_All(res,tia,static)
-    agg = Diff_Post_Agg_Stc(agg_tmp,static)
-elif sys.argv[2] == 'f' and sys.argv[3] == 's' and sys.argv[4] == 'd':
-    res, tia = Diff_Static(nodes_df,edges_df,time_invariant_attr,interval_diff1,interval_diff2)  
-    agg_tmp = Aggregate_Static_Dist(res,tia,static)
-    agg = Diff_Post_Agg_Stc(agg_tmp,static)
-elif sys.argv[2] == 'f' and sys.argv[3] == 'v' and sys.argv[4] == 'a':
-    res, tva = Diff_Variant(nodes_df,edges_df,time_variant_attr,interval_diff1,interval_diff2)
-    agg_tmp = Aggregate_Variant_All(res,tva,interval_diff1)
-    agg = Diff_Post_Agg_Var(agg_tmp)
-elif sys.argv[2] == 'f' and sys.argv[3] == 'v' and sys.argv[4] == 'd':
-    res, tva = Diff_Variant(nodes_df,edges_df,time_variant_attr,interval_diff1,interval_diff2)
-    agg_tmp = Aggregate_Variant_Dist(res,tva,interval_diff1)
-    agg = Diff_Post_Agg_Var(agg_tmp)
-elif sys.argv[2] == 'f' and sys.argv[3] == 'm' and sys.argv[4] == 'a':
-    res, tia, tva = Diff_StcVar(nodes_df,edges_df,time_invariant_attr,time_variant_attr,interval_diff1,interval_diff2)
-    agg_tmp = Aggregate_Mix_All(res,tva,tia,static,interval_diff1)
-    agg = Diff_Post_Agg_Mix(agg_tmp,static)
-elif sys.argv[2] == 'f' and sys.argv[3] == 'm' and sys.argv[4] == 'd':
-    res, tia, tva = Diff_StcVar(nodes_df,edges_df,time_invariant_attr,time_variant_attr,interval_diff1,interval_diff2)
-    agg_tmp = Aggregate_Mix_Dist(res,tva,tia,static,interval_diff1)
-    agg = Diff_Post_Agg_Mix(agg_tmp,static)
-
-#save aggregation output    
-agg[0].to_csv('out_aggregate_nodes.txt', sep=' ', mode='w')
-agg[1].to_csv('out_aggregate_edges.txt', sep=' ', mode='w')
+    
+    if sys.argv[5] == 'g':
+        static = ['gender']
+    elif sys.argv[5] == 'a':
+        static = ['age']
+    elif sys.argv[5] == 'o':
+        static = ['occupation']
+    elif sys.argv[5] == 'ga':
+        static = ['gender', 'age']
+    elif sys.argv[5] == 'go':
+        static = ['gender', 'occupation']
+    elif sys.argv[5] == 'ao':
+        static = ['age', 'occupation']
+    elif sys.argv[5] == 'gao':
+        static = ['gender', 'age', 'occupation']
+    
+    interval = intvl[int(sys.argv[7]): int(sys.argv[8])] + intvl[int(sys.argv[9]): int(sys.argv[10])]
+    interval_diff1 = intvl[int(sys.argv[7]): int(sys.argv[8])]
+    interval_diff2 = intvl[int(sys.argv[9]): int(sys.argv[10])]
+    
+    #union
+    if sys.argv[2] == 'u' and sys.argv[3] == 's' and sys.argv[4] == 'a':
+        res, tia = Union_Static(nodes_df,edges_df,time_invariant_attr,interval)
+        agg = Aggregate_Static_All(res,tia,static)
+    elif sys.argv[2] == 'u' and sys.argv[3] == 's' and sys.argv[4] == 'd':
+        res, tia = Union_Static(nodes_df,edges_df,time_invariant_attr,interval)
+        agg = Aggregate_Static_Dist(res,tia,static)
+    elif sys.argv[2] == 'u' and sys.argv[3] == 'v' and sys.argv[4] == 'a':
+        res, tva = Union_Variant(nodes_df,edges_df,time_variant_attr,interval)
+        agg = Aggregate_Variant_All(res,tva,interval)
+    elif sys.argv[2] == 'u' and sys.argv[3] == 'v' and sys.argv[4] == 'd':
+        res, tva = Union_Variant(nodes_df,edges_df,time_variant_attr,interval)
+        agg = Aggregate_Variant_Dist(res,tva,interval)
+    elif sys.argv[2] == 'u' and sys.argv[3] == 'm' and sys.argv[4] == 'a':
+        res, tia, tva = Union_StcVar(nodes_df,edges_df,time_invariant_attr,time_variant_attr,interval)
+        agg = Aggregate_Mix_All(res,tva,tia,static,interval)
+    elif sys.argv[2] == 'u' and sys.argv[3] == 'm' and sys.argv[4] == 'd':
+        res, tia, tva = Union_StcVar(nodes_df,edges_df,time_invariant_attr,time_variant_attr,interval)
+        agg = Aggregate_Mix_Dist(res,tva,tia,static,interval)
+    #intersection
+    if sys.argv[2] == 'x' and sys.argv[3] == 's' and sys.argv[4] == 'a':
+        res, tia = Intersection_Static(nodes_df,edges_df,time_invariant_attr,interval)
+        agg = Aggregate_Static_All(res,tia,static)
+    elif sys.argv[2] == 'x' and sys.argv[3] == 's' and sys.argv[4] == 'd':
+        res, tia = Intersection_Static(nodes_df,edges_df,time_invariant_attr,interval)
+        agg = Aggregate_Static_Dist(res,tia,static)
+    elif sys.argv[2] == 'x' and sys.argv[3] == 'v' and sys.argv[4] == 'a':
+        res, tva = Intersection_Variant(nodes_df,edges_df,time_variant_attr,interval)
+        agg = Aggregate_Variant_All(res,tva,interval)
+    elif sys.argv[2] == 'x' and sys.argv[3] == 'v' and sys.argv[4] == 'd':
+        res, tva = Intersection_Variant(nodes_df,edges_df,time_variant_attr,interval)
+        agg = Aggregate_Variant_Dist(res,tva,interval)
+    elif sys.argv[2] == 'x' and sys.argv[3] == 'm' and sys.argv[4] == 'a':
+        res, tia, tva = Intersection_StcVar(nodes_df,edges_df,time_invariant_attr,time_variant_attr,interval)
+        agg = Aggregate_Mix_All(res,tva,tia,static,interval)
+    elif sys.argv[2] == 'x' and sys.argv[3] == 'm' and sys.argv[4] == 'd':
+        res, tia, tva = Intersection_StcVar(nodes_df,edges_df,time_invariant_attr,time_variant_attr,interval)
+        agg = Aggregate_Mix_Dist(res,tva,tia,static,interval)
+    #difference
+    if sys.argv[2] == 'f' and sys.argv[3] == 's' and sys.argv[4] == 'a':
+        res, tia = Diff_Static(nodes_df,edges_df,time_invariant_attr,interval_diff1,interval_diff2)
+        agg_tmp = Aggregate_Static_All(res,tia,static)
+        agg = Diff_Post_Agg_Stc(agg_tmp,static)
+    elif sys.argv[2] == 'f' and sys.argv[3] == 's' and sys.argv[4] == 'd':
+        res, tia = Diff_Static(nodes_df,edges_df,time_invariant_attr,interval_diff1,interval_diff2)  
+        agg_tmp = Aggregate_Static_Dist(res,tia,static)
+        agg = Diff_Post_Agg_Stc(agg_tmp,static)
+    elif sys.argv[2] == 'f' and sys.argv[3] == 'v' and sys.argv[4] == 'a':
+        res, tva = Diff_Variant(nodes_df,edges_df,time_variant_attr,interval_diff1,interval_diff2)
+        agg_tmp = Aggregate_Variant_All(res,tva,interval_diff1)
+        agg = Diff_Post_Agg_Var(agg_tmp)
+    elif sys.argv[2] == 'f' and sys.argv[3] == 'v' and sys.argv[4] == 'd':
+        res, tva = Diff_Variant(nodes_df,edges_df,time_variant_attr,interval_diff1,interval_diff2)
+        agg_tmp = Aggregate_Variant_Dist(res,tva,interval_diff1)
+        agg = Diff_Post_Agg_Var(agg_tmp)
+    elif sys.argv[2] == 'f' and sys.argv[3] == 'm' and sys.argv[4] == 'a':
+        res, tia, tva = Diff_StcVar(nodes_df,edges_df,time_invariant_attr,time_variant_attr,interval_diff1,interval_diff2)
+        agg_tmp = Aggregate_Mix_All(res,tva,tia,static,interval_diff1)
+        agg = Diff_Post_Agg_Mix(agg_tmp,static)
+    elif sys.argv[2] == 'f' and sys.argv[3] == 'm' and sys.argv[4] == 'd':
+        res, tia, tva = Diff_StcVar(nodes_df,edges_df,time_invariant_attr,time_variant_attr,interval_diff1,interval_diff2)
+        agg_tmp = Aggregate_Mix_Dist(res,tva,tia,static,interval_diff1)
+        agg = Diff_Post_Agg_Mix(agg_tmp,static)
+    
+    #save aggregation output    
+    agg[0].to_csv('out_aggregate_nodes.txt', sep=' ', mode='w')
+    agg[1].to_csv('out_aggregate_edges.txt', sep=' ', mode='w')
     
