@@ -43,7 +43,7 @@ To run the aggregation algorithms, you need to run graphtempo.py inside the `dat
 Outputs a .txt file with the aggregate nodes information (attribute: weight) and a .txt file with the aggregate edges information ((attribute,attribute): weight).
 
 
-To run the exploration algorithms, you need to run exploration.py inside the `datasets` folder, and provide the dataset folder
+To run the exploration algorithms, you need to run exploration.py inside the `datasets` folder, and provide the dataset folder.
 
     Example:
     ./exploration.py dblp_dataset
