@@ -84,6 +84,9 @@ def Shrink_U_a(k):
     return(shrink_a)
 
 # F - F exploration
+# Stability: k value is set based on max f-f edges of Intersection ([t_i,t_i+1]) for all pairs of consecutive time points
+# Growth: k value is set based on min f-f edges of Difference ([t_i+1,t_i]) for all pairs of consecutive time points
+# Shrinkage: k value is set based on min f-f edges of Difference ([t_i,t_i+1]) for all pairs of consecutive time points
 
 filename = sys.argv[1]
 
@@ -199,9 +202,3 @@ pd.DataFrame(stabInx_a).to_csv('out_stabInx_a.txt', sep=' ', mode='w')
 pd.DataFrame(growthU_a).to_csv('out_growthU_a.txt', sep=' ', mode='w')
 #save output for shrinkage
 pd.DataFrame(shrinkU_a).to_csv('out_shrinkU_a.txt', sep=' ', mode='w')
-
-
-
-
-
-
