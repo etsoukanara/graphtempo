@@ -1,7 +1,9 @@
 # GraphTempo
 The code repository for the following paper:
 
-**Paper**: Evangelia Tsoukanara, Georgia Koloniari, and Evaggelia Pitoura. GraphTempo: An aggregation framework for evolving graphs.
+GraphTempo: An aggregation framework for evolving graphs
+Evangelia Tsoukanara, Georgia Koloniari, and Evaggelia Pitoura. GraphTempo: An aggregation framework for evolving graphs.
+Paper accepted at the 26th International Conference on Extending Database Technology (EDBT 2023)
 
 ## Abstract
 > Graphs offer a generic abstraction for modeling entities and the
