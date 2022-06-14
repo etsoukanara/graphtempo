@@ -1,7 +1,7 @@
 # GraphTempo
 The code repository for the following paper:
 
-GraphTempo: An aggregation framework for evolving graphs
+## GraphTempo: An aggregation framework for evolving graphs
 
 Evangelia Tsoukanara, Georgia Koloniari, and Evaggelia Pitoura. GraphTempo: An aggregation framework for evolving graphs.
 
