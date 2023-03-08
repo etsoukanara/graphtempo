@@ -174,78 +174,77 @@ def Aggregate_Static_Dist(oper_output,tia,stc_attrs):
     return(agg)
 
 def Aggregate_Variant_All(oper_output,tva,intvl):
-    tva = tva.where(tva != 0).stack().to_frame('varying').rename_axis(['userID','time'])
     # nodes
-    nodes = oper_output[0].copy()
-    nodes = nodes.where(nodes != 0).stack().to_frame('varying').rename_axis(['userID','time'])
-    if nodes.index.equals(tva.index):
-        nodes = tva.copy()
+    if oper_output[0].index.equals(tva.index):
+        nodes = pd.melt(tva, value_name='variant', ignore_index=False).drop('variable', axis=1)
     else:
-        nodes = nodes.drop('varying',1)
-        nodes = nodes.join(tva)
-    nodes = pd.DataFrame(index=nodes.varying)
+        nodes = pd.DataFrame(index=oper_output[0].index)
+        for i in intvl:
+            nodes[i] = tva.loc[nodes.index,i].values
+        nodes = pd.melt(nodes, value_name='variant', ignore_index=False).drop('variable', axis=1)
+    nodes = nodes[nodes.variant!=0]
+    nodes = nodes.set_index(nodes.columns.values.tolist())
     nodes = nodes.groupby(nodes.index.names).size().to_frame('count')
+    nodes = nodes[nodes['count'] != 0]
     # edges
-    edges = oper_output[1].copy()
-    edges = edges.where(edges != 0).stack().to_frame('varying').rename_axis(['Left','Right','time'])
-    idx = edges.index
-    edgesL = edges.drop('varying',1).droplevel('Right').rename_axis(['userID','time'])
-    #for attr in var_attrs:
-    edgesL = edgesL.join(tva)
-    edgesL.reset_index(inplace=True, drop=True)
-    edgesR = edges.drop('varying',1).droplevel('Left').rename_axis(['userID','time'])
-    #for attr in var_attrs:
-    edgesR = edgesR.join(tva)
-    edgesR.reset_index(inplace=True, drop=True)
-    #edges = pd.concat([edgesL, edgesR], axis=1)
-    edgesL['varyingR'] = edgesR['varying'].values
-    edgesL.index = idx
-    edgesL.columns = ['varyingL','varyingR']
-    edgesL = pd.DataFrame(index=[edgesL.varyingL, edgesL.varyingR])
-    edgesL = edgesL.groupby(edgesL.index.names).size().to_frame('count')
-    agg = [nodes, edgesL]
+    edges = pd.DataFrame(index=oper_output[1].index)
+    for i in intvl:
+        edges[i+'L'] = tva.loc[edges.index.get_level_values('Left'),i].values
+        edges[i+'R'] = tva.loc[edges.index.get_level_values('Right'),i].values
+    colnames = edges.columns.values.tolist()
+    lefts = [colnames[i] for i in range(0,len(colnames),2)]
+    rights = [colnames[i] for i in range(1,len(colnames),2)]
+    edges_lefts = edges[lefts]
+    edges_rights = edges[rights]
+    edges_lefts = pd.melt(edges_lefts, value_name='variantL', ignore_index=False).drop('variable', axis=1)
+    edges_rights = pd.melt(edges_rights, value_name='variantR', ignore_index=False).drop('variable', axis=1)
+    edgelr = pd.concat([edges_lefts,edges_rights], axis=1)
+    edges = edgelr.loc[~(edgelr==0).any(axis=1)]
+    edges = edges.set_index(edges.columns.values.tolist())
+    edges = edges.groupby(edges.index.names).size().to_frame('count')
+    edges = edges[edges['count'] != 0]
+    agg = [nodes, edges]
     return(agg)
 
+
 def Aggregate_Variant_Dist(oper_output,tva,intvl):
-    tva = tva.where(tva != 0).stack().to_frame('varying').rename_axis(['userID','time'])
     # nodes
-    nodes = oper_output[0].copy()
-    nodes = nodes.where(nodes != 0).stack().to_frame('varying').rename_axis(['userID','time'])
-    if nodes.index.equals(tva.index):
-        nodes = tva.copy()
+    if oper_output[0].index.equals(tva.index):
+        nodes = pd.melt(tva, value_name='variant', ignore_index=False).drop('variable', axis=1)
     else:
-        nodes = nodes.drop('varying',1)
-        nodes = nodes.join(tva)
-    # distinct
-    nodes = nodes.droplevel('time')
+        nodes = pd.DataFrame(index=oper_output[0].index)
+        for i in intvl:
+            nodes[i] = tva.loc[nodes.index,i].values
+        nodes = pd.melt(nodes, value_name='variant', ignore_index=False).drop('variable', axis=1)
+    nodes = nodes[nodes.variant!=0]
     nodes = nodes.reset_index()
-    nodes = nodes.drop_duplicates()#
-    nodes = pd.DataFrame(index=nodes.varying)
+    nodes.columns = ['userID', 'variant']
+    nodes = nodes.drop_duplicates()
+    nodes = nodes.set_index('userID')
+    nodes = nodes.set_index(nodes.columns.values.tolist())
     nodes = nodes.groupby(nodes.index.names).size().to_frame('count')
+    nodes = nodes[nodes['count'] != 0]
     # edges
-    edges = oper_output[1].copy()
-    edges = edges.where(edges != 0).stack().to_frame('varying').rename_axis(['Left','Right','time'])
-    idx = edges.index
-    edgesL = edges.drop('varying',1).droplevel('Right').rename_axis(['userID','time'])
-    #for attr in var_attrs:
-    edgesL = edgesL.join(tva)
-    edgesL.reset_index(inplace=True, drop=True)
-    edgesR = edges.drop('varying',1).droplevel('Left').rename_axis(['userID','time'])
-    #for attr in var_attrs:
-    edgesR = edgesR.join(tva)
-    edgesR.reset_index(inplace=True, drop=True)
-    #edges = pd.concat([edgesL, edgesR], axis=1)
-    edgesL['varyingR'] = edgesR['varying'].values
-    edgesL.index = idx
-    edgesL.columns = ['varyingL','varyingR']
-    # distinct
-    edgesL = edgesL.droplevel('time')
-    edgesL = edgesL.reset_index()
-    edgesL = edgesL.drop_duplicates()
-    #
-    edgesL = pd.DataFrame(index=[edgesL.varyingL, edgesL.varyingR])
-    edgesL = edgesL.groupby(edgesL.index.names).size().to_frame('count')
-    agg = [nodes, edgesL]
+    edges = pd.DataFrame(index=oper_output[1].index)
+    for i in intvl:
+        edges[i+'L'] = tva.loc[edges.index.get_level_values('Left'),i].values
+        edges[i+'R'] = tva.loc[edges.index.get_level_values('Right'),i].values
+    colnames = edges.columns.values.tolist()
+    lefts = [colnames[i] for i in range(0,len(colnames),2)]
+    rights = [colnames[i] for i in range(1,len(colnames),2)]
+    edges_lefts = edges[lefts]
+    edges_rights = edges[rights]
+    edges_lefts = pd.melt(edges_lefts, value_name='variantL', ignore_index=False).drop('variable', axis=1)
+    edges_rights = pd.melt(edges_rights, value_name='variantR', ignore_index=False).drop('variable', axis=1)
+    edgelr = pd.concat([edges_lefts,edges_rights], axis=1)
+    edges = edgelr.loc[~(edgelr==0).any(axis=1)]
+    edges = edges.reset_index()
+    edges = edges.drop_duplicates()
+    edges = edges.drop(['Left', 'Right'], axis=1)
+    edges = edges.set_index(edges.columns.values.tolist())
+    edges = edges.groupby(edges.index.names).size().to_frame('count')
+    edges = edges[edges['count'] != 0]
+    agg = [nodes, edges]
     return(agg)
 
 def Aggregate_Mix_All(oper_output,tva,tia,stc_attrs,intvl):
