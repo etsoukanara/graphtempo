@@ -68,7 +68,9 @@ def Diff_Static(nodesdf,edgesdf,tia,intvl_fst,intvl_scd):
     nodes = un_init[0][~un_init[0].index.isin(un_to_rm[0].index)]
     edges = un_init[1][~un_init[1].index.isin(un_to_rm[1].index)]
     ediff_idx = set([item for i in edges.index.values.tolist() for item in i])
-    tia_d = tia_init[tia_init.index.isin(ediff_idx)]
+    ndiff_idx = set(i for i in nodes.index.values.tolist())
+    idx = set(list(ediff_idx) + list(ndiff_idx))
+    tia_d = tia_init[tia_init.index.isin(idx)]
     diff = [nodes,edges]
     return(diff,tia_d)
 
@@ -78,7 +80,9 @@ def Diff_Variant(nodesdf,edgesdf,tva,intvl_fst,intvl_scd):
     nodes = un_init[0][~un_init[0].index.isin(un_to_rm[0].index)]
     edges = un_init[1][~un_init[1].index.isin(un_to_rm[1].index)]
     ediff_idx = set([item for i in edges.index.values.tolist() for item in i])
-    tva_d = tva_init[tva_init.index.isin(ediff_idx)]
+    ndiff_idx = set(i for i in nodes.index.values.tolist())
+    idx = set(list(ediff_idx) + list(ndiff_idx))
+    tva_d = tva_init[tva_init.index.isin(idx)]
     diff = [nodes,edges]
     return(diff,tva_d)
 
@@ -88,8 +92,10 @@ def Diff_StcVar(nodesdf,edgesdf,tia,tva,intvl_fst,intvl_scd):
     nodes = un_init[0][~un_init[0].index.isin(un_to_rm[0].index)]
     edges = un_init[1][~un_init[1].index.isin(un_to_rm[1].index)]
     ediff_idx = set([item for i in edges.index.values.tolist() for item in i])
-    tia_d = tia_init[tia_init.index.isin(ediff_idx)]
-    tva_d = tva_init[tva_init.index.isin(ediff_idx)]
+    ndiff_idx = set(i for i in nodes.index.values.tolist())
+    idx = set(list(ediff_idx) + list(ndiff_idx))
+    tia_d = tia_init[tia_init.index.isin(idx)]
+    tva_d = tva_init[tva_init.index.isin(idx)]
     diff = [nodes,edges]
     return(diff,tia_d,tva_d)
 
