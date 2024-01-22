@@ -22,7 +22,7 @@ Paper accepted at the 26th International Conference on Extending Database Techno
 This repository facilitates both temporal and attribute aggregation by introducing a set of temporal projections and enabling aggregation on static, time-varying node attributes and combinations of them. Also, provide an exploratory strategy to assess the evolution of the graph in terms of _stability_, _shrinkage_, and _growth_. The datasets used in this paper is provided in `datasets`.
 
 ## Datasets
-_DBLP_: directed collaboration dataset that spans over a period of 21 years (2000 to 2020) and includes publicatoins at 21 conferences related to data management research areas. Each node corresponds to an author and is attributed with one static label (gender), and a time-varying one (#publications)
+_DBLP_: directed collaboration dataset that spans over a period of 21 years (2000 to 2020) and includes publications at 21 conferences related to data management research areas. Each node corresponds to an author and is attributed with one static label (gender), and a time-varying one (#publications)
 
 _MovieLens_: directed mutual rating dataset (built on the benchmark movie ratings dataset) covering a period of six months (May 1st, 2000 to October 31st, 2000) where each node represents a user and an edge denotes that two users have rated the same movie, and is attributed with three static (gender, age, occupation) and one time-varying attribute (average rating per month)
 
@@ -39,7 +39,7 @@ To run the aggregation algorithms, you need to run graphtempo.py inside the `dat
     4. a | d
     5. g | a | o | ga | go | ao | gao
     6. p | r
-    7., 8., 9., 10. index (0 corresponds to the 1st time point)
+    7., 8., 9., 10. index (0 corresponds to the 1st time point - intervals are left open)
 
     Example:
     ./graphtempo.py movielens_dataset u v d g p 0 2 5 6
